@@ -22,10 +22,10 @@
         <table class="table table-striped">
             <tr>
                 <th>Gravatar</th>
-                <th>Participant</th>
-                <th>Score</th>
+                <th><a href="" ng-click="predicate = 'name'; reverse=!reverse">Participant</a></th>
+                <th><a href="" ng-click="predicate = 'level'; reverse=!reverse">Score</a></th>
             </tr>
-            <tr ng-repeat="participant in participants.data">
+            <tr ng-repeat="participant in participants.data | orderBy:predicate:reverse">
                 <td><img width="32" height="32" src="{{participant.gravatar}}"/></td>
                 <td>{{participant.name}}</td>
                 <td>{{participant.level}}</td>
@@ -40,6 +40,7 @@
     function CodeStoryCtrl($scope, $http) {
         console.log('controller');
         $scope.participants = $http.get('data.json', {});
+        $scope.predicate = 'name';
     }
 </script>
 </html>
