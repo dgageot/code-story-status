@@ -26,7 +26,7 @@
                 <th>Score</th>
             </tr>
             <tr ng-repeat="participant in participants.data">
-                <td><img width="32" height="32" src="{{participant.gravatar}}"/></td>
+                <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/></td>
                 <td>{{participant.name}}</td>
                 <td>{{participant.level}}</td>
             </tr>
