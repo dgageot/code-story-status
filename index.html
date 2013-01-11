@@ -2,11 +2,15 @@
 <html ng-app>
 <head>
     <title>CodeStory Challenge 2013</title>
+    <meta charset='utf-8'>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <style>
         .liste table {
             width: 600px;
         }
+
+        .sort-true::before{ content:'↓ '; }
+        .sort-false::before{ content:'↑ '; }
     </style>
 </head>
 <body ng-controller="CodeStoryCtrl">
@@ -22,10 +26,10 @@
         <table class="table table-striped">
             <tr>
                 <th>Gravatar</th>
-                <th>Participant</th>
-                <th>Score</th>
+                <th ng:class="selectedCls('name')" ng:click="changeSorting('name')">Participant</th>
+                <th ng:class="selectedCls('level')" ng:click="changeSorting('level')">Score</th>
             </tr>
-            <tr ng-repeat="participant in participants.data">
+            <tr ng-repeat="participant in participants.data | orderBy:sort.column:sort.descending">
                 <td><img width="32" height="32" src="{{participant.gravatar}}"/></td>
                 <td>{{participant.name}}</td>
                 <td>{{participant.level}}</td>
@@ -40,6 +44,24 @@
     function CodeStoryCtrl($scope, $http) {
         console.log('controller');
         $scope.participants = $http.get('data.json', {});
+        $scope.sort = {
+            column: 'level',
+            descending: true
+        };
+
+        $scope.selectedCls = function (column) {
+            return column == $scope.sort.column && 'sort-' + $scope.sort.descending;
+        };
+
+        $scope.changeSorting = function (column) {
+            var sort = $scope.sort;
+            if (sort.column == column) {
+                sort.descending = !sort.descending;
+            } else {
+                sort.column = column;
+                sort.descending = false;
+            }
+        };
     }
 </script>
 </html>
