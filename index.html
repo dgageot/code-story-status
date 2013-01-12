@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="codeStoryStatusApp">
 <head>
     <title>CodeStory Challenge 2013</title>
     <meta charset='utf-8'>
@@ -36,14 +36,14 @@
             <tr>
                 <th>Gravatar</th>
                 <th ng:class="selectedCls('name')" ng:click="changeSorting('name')">Participant</th>
-                <th ng:class="selectedCls('levelForSort')" ng:click="changeSorting('levelForSort')">Score</th>
+                <th ng:class="selectedCls(levelForSort)" ng:click="changeSorting(levelForSort)">Score</th>
                 <th ng:class="selectedCls('time')" ng:click="changeSorting('time')">Réponse</th>
             </tr>
             <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
                 <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/></td>
                 <td>{{participant.name}}</td>
                 <td>{{participant.level}}</td>
-                <td>{{participant.prettyDate}}</td>
+                <td>{{participant.time | prettyDate}}</td>
             </tr>
         </table>
         </div>
@@ -51,24 +51,27 @@
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
 <script>
-function prettyDate(time){ //  blatlanly adapted from http://ejohn.org/files/pretty.js
-    var date = new Date((time || "").replace(/-/g,"/").replace(/[TZ]/g," ")),
-        diff = (((new Date()).getTime() - date.getTime()) / 1000),
-        day_diff = Math.floor(diff / 86400);
-            
-    if ( isNaN(day_diff) || day_diff < 0 || day_diff >= 31 )
-        return;
-            
-    return day_diff == 0 && (
-            diff < 60 && 'à l\'instant' ||
-            diff < 120 && 'il y a 1 minute' ||
-            diff < 3600 && 'il y a ' + Math.floor( diff / 60 ) + ' minutes' ||
-            diff < 7200 && 'il y a 1 heure' ||
-            diff < 86400 && 'il y a ' + Math.floor( diff / 3600 ) + ' heures') ||
-        day_diff == 1 && 'hier' ||
-        day_diff < 7 && 'il y a ' + day_diff + ' jours' ||
-        day_diff < 31 && 'il y a ' + Math.ceil( day_diff / 7 ) + ' semaines';
-}
+    angular.module("codeStoryStatusApp", []).
+        filter('prettyDate', function() {
+            return function prettyDate(time){ //  blatlanly adapted from http://ejohn.org/files/pretty.js
+                var date = new Date((time || "").replace(/-/g,"/").replace(/[TZ]/g," ")),
+                    diff = (((new Date()).getTime() - date.getTime()) / 1000),
+                    day_diff = Math.floor(diff / 86400);
+
+                if ( isNaN(day_diff) || day_diff < 0 || day_diff >= 31 )
+                    return;
+
+                return day_diff == 0 && (
+                        diff < 60 && 'à l\'instant' ||
+                        diff < 120 && 'il y a 1 minute' ||
+                        diff < 3600 && 'il y a ' + Math.floor( diff / 60 ) + ' minutes' ||
+                        diff < 7200 && 'il y a 1 heure' ||
+                        diff < 86400 && 'il y a ' + Math.floor( diff / 3600 ) + ' heures') ||
+                    day_diff == 1 && 'hier' ||
+                    day_diff < 7 && 'il y a ' + day_diff + ' jours' ||
+                    day_diff < 31 && 'il y a ' + Math.ceil( day_diff / 7 ) + ' semaines';
+            }
+        });
 
     function padLeft(number, length) {
         var str = '' + number;
@@ -80,35 +83,32 @@ function prettyDate(time){ //  blatlanly adapted from http://ejohn.org/files/pre
 
     function CodeStoryCtrl($scope, $http) {
 
-        $scope.participants = $http.get('data.json').success(function (json) {
-            for(i=0;i<json.length;i++) { // gosh, I miss coffeescript when writing thoses...
-                json[i].prettyDate = prettyDate(json[i].time)
-                json[i].levelForSort = padLeft(1000-json[i].level, 3) + json[i].time;
-            }
-            return json
-        });
+        $scope.participants = $http.get('data.json');
 
+        $scope.levelForSort = function (participant) {
+            return padLeft(1000-participant.level, 3) + participant.time
+        }
 
         $scope.sort = {
-            column: 'levelForSort',
+            column: $scope.levelForSort,
             descendingDisplay:true,
             descending: false
         };
 
         $scope.selectedCls = function (column) {
-            return column == $scope.sort.column && 'sort-' + $scope.sort.descendingDisplay;
+            return column === $scope.sort.column && 'sort-' + $scope.sort.descendingDisplay;
         };
 
         $scope.changeSorting = function (column) {
             var sort = $scope.sort;
-            if (sort.column == column) {
+            if (sort.column === column) {
                 sort.descending = !sort.descending;
                 sort.descendingDisplay = !sort.descendingDisplay;
             } else {
                 sort.column = column;
                 sort.descendingDisplay = false;
                 sort.descending = false;
-                if (sort.column == 'levelForSort') {
+                if (sort.column === $scope.levelForSort) {
                     sort.descendingDisplay = !sort.descendingDisplay;
                 }
             }
