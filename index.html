@@ -27,7 +27,7 @@
             <tr>
                 <th>Gravatar</th>
                 <th ng:class="selectedCls('name')" ng:click="changeSorting('name')">Participant</th>
-                <th ng:class="selectedCls('level')" ng:click="changeSorting('level')">Score</th>
+                <th ng:class="selectedCls('levelForSort')" ng:click="changeSorting('levelForSort')">Score</th>
                 <th ng:class="selectedCls('time')" ng:click="changeSorting('time')">Réponse</th>
             </tr>
             <tr ng-repeat="participant in participants.data | orderBy:sort.column:sort.descending">
@@ -61,31 +61,47 @@ function prettyDate(time){ //  blatlanly adapted from http://ejohn.org/files/pre
         day_diff < 31 && 'il y a ' + Math.ceil( day_diff / 7 ) + ' semaines';
 }
 
+    function padLeft(number, length) {
+        var str = '' + number;
+        while (str.length < length) {
+            str = '0' + str;
+        }
+        return str;
+    }
+
     function CodeStoryCtrl($scope, $http) {
 
         $scope.participants = $http.get('data.json').success(function (json) {
             for(i=0;i<json.length;i++) { // gosh, I miss coffeescript when writing thoses...
                 json[i].prettyDate = prettyDate(json[i].time)
+                json[i].levelForSort = padLeft(1000-json[i].level, 3) + json[i].time;
             }
             return json
         });
 
+
         $scope.sort = {
-            column: 'level',
-            descending: true
+            column: 'levelForSort',
+            descendingDisplay:true,
+            descending: false
         };
 
         $scope.selectedCls = function (column) {
-            return column == $scope.sort.column && 'sort-' + $scope.sort.descending;
+            return column == $scope.sort.column && 'sort-' + $scope.sort.descendingDisplay;
         };
 
         $scope.changeSorting = function (column) {
             var sort = $scope.sort;
             if (sort.column == column) {
                 sort.descending = !sort.descending;
+                sort.descendingDisplay = !sort.descendingDisplay;
             } else {
                 sort.column = column;
+                sort.descendingDisplay = false;
                 sort.descending = false;
+                if (sort.column == 'levelForSort') {
+                    sort.descendingDisplay = !sort.descendingDisplay;
+                }
             }
         };
 
