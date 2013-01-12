@@ -28,7 +28,7 @@
                 <th>Gravatar</th>
                 <th ng:class="selectedCls('name')" ng:click="changeSorting('name')">Participant</th>
                 <th ng:class="selectedCls('level')" ng:click="changeSorting('level')">Score</th>
-                <th>Réponse</th>
+                <th ng:class="selectedCls('time')" ng:click="changeSorting('time')">Réponse</th>
             </tr>
             <tr ng-repeat="participant in participants.data | orderBy:sort.column:sort.descending">
                 <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/></td>
