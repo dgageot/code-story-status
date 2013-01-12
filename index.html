@@ -38,12 +38,14 @@
                 <th ng:class="selectedCls('name')" ng:click="changeSorting('name')">Participant</th>
                 <th ng:class="selectedCls('levelForSort')" ng:click="changeSorting('levelForSort')">Score</th>
                 <th ng:class="selectedCls('time')" ng:click="changeSorting('time')">Réponse</th>
+                <th>Rang</th>
             </tr>
             <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
                 <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/></td>
                 <td>{{participant.name}}</td>
                 <td>{{participant.level}}</td>
                 <td>{{participant.prettyDate}}</td>
+                <td>{{participant.rang}}</td>
             </tr>
         </table>
         </div>
@@ -84,6 +86,30 @@ function prettyDate(time){ //  blatlanly adapted from http://ejohn.org/files/pre
             for(i=0;i<json.length;i++) { // gosh, I miss coffeescript when writing thoses...
                 json[i].prettyDate = prettyDate(json[i].time)
                 json[i].levelForSort = padLeft(1000-json[i].level, 3) + json[i].time;
+            }
+            // Sort on levelForSort
+            json.sort(function(participant1, participant2){
+                if (participant1.levelForSort < participant2.levelForSort) {
+                    return -1;
+                }
+                if (participant1.levelForSort > participant2.levelForSort) {
+                    return 1;
+                }
+                return 1;
+            });
+
+            // Calculate "Rang"
+            // If levelForSort is equal, same rang.
+            lastRang = 1;
+            lastLevel = "";
+            for (i=0;i<json.length;i++) {
+                if (lastLevel == json[i].levelForSort) {
+                    json[i].rang = lastRang;
+                } else {
+                    lastRang = i+1;
+                    lastLevel = json[i].levelForSort;
+                    json[i].rang = lastRang;
+                }
             }
             return json
         });
