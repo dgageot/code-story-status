@@ -23,6 +23,15 @@
 
         <p>Cette liste n'est pour l'instant pas mise &agrave; jour en temps r&eacute;el...</p>
 
+        <form  class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label" for="inputQuery">Recherche : </label>
+                <div class="controls">
+                    <input ng-model="query" id="inputQuery" type="text" class="input-medium search-query"/>
+                </div>
+            </div>
+        </form>
+
         <table class="table table-striped">
             <tr>
                 <th>Gravatar</th>
@@ -30,7 +39,7 @@
                 <th ng:class="selectedCls('levelForSort')" ng:click="changeSorting('levelForSort')">Score</th>
                 <th ng:class="selectedCls('time')" ng:click="changeSorting('time')">Réponse</th>
             </tr>
-            <tr ng-repeat="participant in participants.data | orderBy:sort.column:sort.descending">
+            <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
                 <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/></td>
                 <td>{{participant.name}}</td>
                 <td>{{participant.level}}</td>
