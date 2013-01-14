@@ -52,7 +52,7 @@
     angular.module("codeStoryStatusApp", []).
         filter('prettyDate', function() {
             return function prettyDate(time){ //  blatlanly adapted from http://ejohn.org/files/pretty.js
-                var date = new Date((time || "").replace(/-/g,"/").replace(/[TZ]/g," ")),
+                var date = new Date((time || "").replace(/-/g,"/").replace(/T/g," ").replace(/\.000Z/g, "")),
                     diff = (((new Date()).getTime() - date.getTime()) / 1000),
                     day_diff = Math.floor(diff / 86400);
 
