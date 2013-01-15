@@ -53,7 +53,7 @@
                     <th ng-class="selectedCls('time')" ng-click="changeSorting('time')">Réponse</th>
                 </tr>
                 <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
-                    <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/> {{participant.name}}</td>
+                    <td><img width="32" height="32" ng-src="{{participant.gravatar | gravatarSize }}"/> {{participant.name}}</td>
                     <td>{{participant.level}}</td>
                     <td>{{participant.time | prettyDate}}</td>
                 </tr>
@@ -72,8 +72,17 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/highcharts.js"></script>
 <script>
-    angular.module("codeStoryStatusApp", []).
-            filter('prettyDate', function () {
+    angular.module("codeStoryStatusApp", [])
+            .filter('gravatarSize', function() {
+                return function (text) {
+                    if (text) {
+                        return text.replace('s=64', 's=32');
+                    } else {
+                        return text;
+                    }
+                };
+            })
+            .filter('prettyDate', function () {
                 return function prettyDate(time) { //  blatlanly adapted from http://ejohn.org/files/pretty.js
                     var date = new Date((time || "").replace(/-/g, "/").replace(/T/g, " ").replace(/\.000Z/g, "")),
                             diff = (((new Date()).getTime() - date.getTime()) / 1000),
