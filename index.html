@@ -19,36 +19,40 @@
     <div class="page-header">
         <h1>CodeStory Challenge 2013</h1>
     </div>
-    <div class="liste">
-        <h3>Liste des {{participants.data.length}} participants</h3>
-
-        <form  class="form-horizontal">
-            <div class="control-group">
-                <label class="control-label" for="inputQuery">Recherche : </label>
-                <div class="controls">
-                    <input ng-model="query" id="inputQuery" type="text" class="input-medium search-query"/>
+    <div class="row">
+        <div class="span6">
+            <h3>Liste des {{participants.data.length}} participants</h3>
+            <form  class="form-horizontal">
+                <div class="control-group">
+                    <label class="control-label" for="inputQuery">Recherche : </label>
+                    <div class="controls">
+                        <input ng-model="query" id="inputQuery" type="text" class="input-medium search-query"/>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
 
-        <table class="table table-striped">
-            <tr>
-                <th>Gravatar</th>
-                <th ng:class="selectedCls('name')" ng:click="changeSorting('name')">Participant</th>
-                <th ng:class="selectedCls(levelForSort)" ng:click="changeSorting(levelForSort)">Score</th>
-                <th ng:class="selectedCls('time')" ng:click="changeSorting('time')">Réponse</th>
-            </tr>
-            <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
-                <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/></td>
-                <td>{{participant.name}}</td>
-                <td>{{participant.level}}</td>
-                <td>{{participant.time | prettyDate}}</td>
-            </tr>
-        </table>
+            <table class="table table-striped">
+                <tr>
+                    <th>Gravatar</th>
+                    <th ng:class="selectedCls('name')" ng:click="changeSorting('name')">Participant</th>
+                    <th ng:class="selectedCls(levelForSort)" ng:click="changeSorting(levelForSort)">Score</th>
+                    <th ng:class="selectedCls('time')" ng:click="changeSorting('time')">Réponse</th>
+                </tr>
+                <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
+                    <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/></td>
+                    <td>{{participant.name}}</td>
+                    <td>{{participant.level}}</td>
+                    <td>{{participant.time | prettyDate}}</td>
+                </tr>
+            </table>
         </div>
+        <div id="container" class="span6"></div>
     </div>
 </body>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.0.3/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/2.3.1/highcharts.js"></script>
 <script>
     angular.module("codeStoryStatusApp", []).
         filter('prettyDate', function() {
@@ -82,8 +86,7 @@
 
     function CodeStoryCtrl($scope, $http) {
 
-        $scope.participants = $http.get('data.json');
-
+        $scope.participants = $http.get('data.json').success(drawChart);
         $scope.levelForSort = function (participant) {
             return padLeft(1000-participant.level, 3) + participant.time
         }
@@ -113,6 +116,41 @@
             }
         };
 
+
+
+
+    }
+    function drawChart(data) {
+        var pieData = _.chain(data)
+            .countBy("level")
+            .pairs()
+            .value();
+
+        chart = new Highcharts.Chart({
+            chart: {renderTo: 'container'},
+            title: {text: 'Participants par score'},
+            tooltip: {
+                pointFormat: '<b>{point.name} points</b>: {point.percentage}%',
+                percentageDecimals: 0
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        formatter: function() {
+                            return '<b>'+ this.point.name +' points</b>: '+ Math.round(this.percentage) +' %';
+                        }
+                    }
+                }
+            },
+            series: [{
+                type: 'pie',
+                name: 'Part',
+                data: pieData
+            }]
+        });
     }
 </script>
 </html>
