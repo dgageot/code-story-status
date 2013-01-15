@@ -50,11 +50,13 @@
                 <tr>
                     <th ng-class="selectedCls('name')" ng-click="changeSorting('name')">Participant</th>
                     <th ng-class="selectedCls(levelForSort)" ng-click="changeSorting(levelForSort)">Score</th>
+                    <th ng-class="selectedCls('perf')" ng-click="changeSorting('perf')">Performance</th>
                     <th ng-class="selectedCls('time')" ng-click="changeSorting('time')">Réponse</th>
                 </tr>
                 <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
                     <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/> {{participant.name}}</td>
-                    <td>{{participant.level}}</td>
+                    <td>{{participant.level}} / {{participant.maxLevel}}</td>
+                    <td>{{participant.perf}} / {{participant.maxPerf}}</td>
                     <td>{{participant.time | prettyDate}}</td>
                 </tr>
             </table>
@@ -105,7 +107,7 @@
     function CodeStoryCtrl($scope, $http) {
         $scope.participants = $http.get('data.json').success(drawChart);
         $scope.levelForSort = function (participant) {
-            return padLeft(1000 - participant.level, 3) + participant.time
+            return participant.level * 100 + participant.perf
         }
 
         $scope.sort = {
