@@ -268,6 +268,15 @@
     "maxPerf": 20
   },
   {
+    "name": "AlainMuller",
+    "level": 3,
+    "maxLevel": 33,
+    "time": "2013-01-15T13:21:02.000Z",
+    "gravatar": "http://www.gravatar.com/avatar/1f1bbe56337f5f85744c1ea94aafcfc9?s\u003d64",
+    "perf": 0,
+    "maxPerf": 20
+  },
+  {
     "name": "gdhordain",
     "level": 27,
     "maxLevel": 33,
@@ -376,6 +385,14 @@
     "maxPerf": 20
   },
   {
+    "name": "Bastien",
+    "level": 2,
+    "maxLevel": 33,
+    "time": "2013-01-15T13:21:03.000Z",
+    "perf": 0,
+    "maxPerf": 20
+  },
+  {
     "name": "Sc",
     "level": 20,
     "maxLevel": 33,
@@ -464,6 +481,14 @@
     "maxPerf": 20
   },
   {
+    "name": "xtofl",
+    "level": 2,
+    "maxLevel": 33,
+    "time": "2013-01-15T13:21:03.000Z",
+    "perf": 0,
+    "maxPerf": 20
+  },
+  {
     "name": "TomEtJerem",
     "level": 33,
     "maxLevel": 33,
@@ -536,6 +561,15 @@
     "maxPerf": 20
   },
   {
+    "name": "dpellier",
+    "level": 3,
+    "maxLevel": 33,
+    "time": "2013-01-15T13:21:04.000Z",
+    "gravatar": "http://www.gravatar.com/avatar/c9319857fe19642614ec890d98c802c2?s\u003d64",
+    "perf": 0,
+    "maxPerf": 20
+  },
+  {
     "name": "antoine",
     "level": 33,
     "maxLevel": 33,
@@ -584,7 +618,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 33,
-    "time": "2013-01-15T13:00:59.000Z",
+    "time": "2013-01-15T13:23:30.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 20
@@ -701,7 +735,7 @@
     "name": "laurentpetit",
     "level": 22,
     "maxLevel": 33,
-    "time": "2013-01-15T13:00:45.000Z",
+    "time": "2013-01-15T13:23:15.000Z",
     "gravatar": "http://www.gravatar.com/avatar/6595ae6ba5ca0712e8e3074f2d9063d2?s\u003d64",
     "perf": 0,
     "maxPerf": 20
@@ -760,10 +794,18 @@
     "maxPerf": 20
   },
   {
+    "name": "FloDroid",
+    "level": 2,
+    "maxLevel": 33,
+    "time": "2013-01-15T13:21:10.000Z",
+    "perf": 0,
+    "maxPerf": 20
+  },
+  {
     "name": "sebc",
     "level": 7,
     "maxLevel": 33,
-    "time": "2013-01-15T13:00:46.000Z",
+    "time": "2013-01-15T13:23:16.000Z",
     "gravatar": "http://www.gravatar.com/avatar/a36365a1874360981942f089d839d473?s\u003d64",
     "perf": 0,
     "maxPerf": 20
