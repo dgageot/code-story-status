@@ -6,8 +6,12 @@
     <link type='image/png' rel='shortcut icon' href='fusee-16x16.png'/>
     <link href="css/bootstrap-combined.min.css" rel="stylesheet">
     <style>
-        .liste table {
-            width: 600px;
+        .table td {
+            vertical-align: middle;
+        }
+
+        h3 {
+            text-align: center;
         }
 
         th {
@@ -44,20 +48,22 @@
 
             <table class="table table-striped">
                 <tr>
-                    <th>Gravatar</th>
                     <th ng-class="selectedCls('name')" ng-click="changeSorting('name')">Participant</th>
                     <th ng-class="selectedCls(levelForSort)" ng-click="changeSorting(levelForSort)">Score</th>
                     <th ng-class="selectedCls('time')" ng-click="changeSorting('time')">Réponse</th>
                 </tr>
                 <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
-                    <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/></td>
-                    <td>{{participant.name}}</td>
+                    <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/> {{participant.name}}</td>
                     <td>{{participant.level}}</td>
                     <td>{{participant.time | prettyDate}}</td>
                 </tr>
             </table>
         </div>
-        <div id="container" class="span6"></div>
+        <div class="span6">
+            <h3>Participants par score</h3>
+
+            <div id="container"></div>
+        </div>
     </div>
 </div>
 </body>
@@ -127,9 +133,8 @@
                 }
             }
         };
-
-
     }
+
     function drawChart(data) {
         var pieData = _.chain(data)
                 .countBy("level")
@@ -138,7 +143,7 @@
 
         chart = new Highcharts.Chart({
             chart: {renderTo: 'container'},
-            title: {text: 'Participants par score'},
+            title: {text: ''},
             tooltip: {
                 pointFormat: '<b>{point.name} points</b>: {point.percentage}%',
                 percentageDecimals: 0
