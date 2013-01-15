@@ -4,14 +4,19 @@
     <title>CodeStory Challenge 2013</title>
     <meta charset='utf-8'>
     <link type='image/png' rel='shortcut icon' href='fusee-16x16.png'/>
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="css/bootstrap-combined.min.css" rel="stylesheet">
     <style>
         .liste table {
             width: 600px;
         }
 
-        .sort-true::before{ content:'↓ '; }
-        .sort-false::before{ content:'↑ '; }
+        .sort-true::before {
+            content: '↓ ';
+        }
+
+        .sort-false::before {
+            content: '↑ ';
+        }
     </style>
 </head>
 <body ng-controller="CodeStoryCtrl">
@@ -22,9 +27,11 @@
     <div class="row">
         <div class="span6">
             <h3>Liste des {{participants.data.length}} participants</h3>
-            <form  class="form-horizontal">
+
+            <form class="form-horizontal">
                 <div class="control-group">
                     <label class="control-label" for="inputQuery">Recherche : </label>
+
                     <div class="controls">
                         <input ng-model="query" id="inputQuery" type="text" class="input-medium search-query"/>
                     </div>
@@ -49,32 +56,32 @@
         <div id="container" class="span6"></div>
     </div>
 </body>
-<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.0.3/angular.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/2.3.1/highcharts.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/underscore-min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/highcharts.js"></script>
 <script>
     angular.module("codeStoryStatusApp", []).
-        filter('prettyDate', function() {
-            return function prettyDate(time){ //  blatlanly adapted from http://ejohn.org/files/pretty.js
-                var date = new Date((time || "").replace(/-/g,"/").replace(/T/g," ").replace(/\.000Z/g, "")),
-                    diff = (((new Date()).getTime() - date.getTime()) / 1000),
-                    day_diff = Math.floor(diff / 86400);
+            filter('prettyDate', function () {
+                return function prettyDate(time) { //  blatlanly adapted from http://ejohn.org/files/pretty.js
+                    var date = new Date((time || "").replace(/-/g, "/").replace(/T/g, " ").replace(/\.000Z/g, "")),
+                            diff = (((new Date()).getTime() - date.getTime()) / 1000),
+                            day_diff = Math.floor(diff / 86400);
 
-                if ( isNaN(day_diff) || day_diff < 0 || day_diff >= 31 )
-                    return;
+                    if (isNaN(day_diff) || day_diff < 0 || day_diff >= 31)
+                        return;
 
-                return day_diff == 0 && (
-                        diff < 60 && 'à l\'instant' ||
-                        diff < 120 && 'il y a 1 minute' ||
-                        diff < 3600 && 'il y a ' + Math.floor( diff / 60 ) + ' minutes' ||
-                        diff < 7200 && 'il y a 1 heure' ||
-                        diff < 86400 && 'il y a ' + Math.floor( diff / 3600 ) + ' heures') ||
-                    day_diff == 1 && 'hier' ||
-                    day_diff < 7 && 'il y a ' + day_diff + ' jours' ||
-                    day_diff < 31 && 'il y a ' + Math.ceil( day_diff / 7 ) + ' semaines';
-            }
-        });
+                    return day_diff == 0 && (
+                            diff < 60 && 'à l\'instant' ||
+                                    diff < 120 && 'il y a 1 minute' ||
+                                    diff < 3600 && 'il y a ' + Math.floor(diff / 60) + ' minutes' ||
+                                    diff < 7200 && 'il y a 1 heure' ||
+                                    diff < 86400 && 'il y a ' + Math.floor(diff / 3600) + ' heures') ||
+                            day_diff == 1 && 'hier' ||
+                            day_diff < 7 && 'il y a ' + day_diff + ' jours' ||
+                            day_diff < 31 && 'il y a ' + Math.ceil(day_diff / 7) + ' semaines';
+                }
+            });
 
     function padLeft(number, length) {
         var str = '' + number;
@@ -88,12 +95,12 @@
 
         $scope.participants = $http.get('data.json').success(drawChart);
         $scope.levelForSort = function (participant) {
-            return padLeft(1000-participant.level, 3) + participant.time
+            return padLeft(1000 - participant.level, 3) + participant.time
         }
 
         $scope.sort = {
             column: $scope.levelForSort,
-            descendingDisplay:true,
+            descendingDisplay: true,
             descending: false
         };
 
@@ -117,14 +124,12 @@
         };
 
 
-
-
     }
     function drawChart(data) {
         var pieData = _.chain(data)
-            .countBy("level")
-            .pairs()
-            .value();
+                .countBy("level")
+                .pairs()
+                .value();
 
         chart = new Highcharts.Chart({
             chart: {renderTo: 'container'},
@@ -139,17 +144,19 @@
                     cursor: 'pointer',
                     dataLabels: {
                         enabled: true,
-                        formatter: function() {
-                            return '<b>'+ this.point.name +' points</b>: '+ Math.round(this.percentage) +' %';
+                        formatter: function () {
+                            return '<b>' + this.point.name + ' points</b>: ' + Math.round(this.percentage) + ' %';
                         }
                     }
                 }
             },
-            series: [{
-                type: 'pie',
-                name: 'Part',
-                data: pieData
-            }]
+            series: [
+                {
+                    type: 'pie',
+                    name: 'Part',
+                    data: pieData
+                }
+            ]
         });
     }
 </script>
