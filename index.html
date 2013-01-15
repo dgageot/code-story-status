@@ -103,7 +103,6 @@
     }
 
     function CodeStoryCtrl($scope, $http) {
-
         $scope.participants = $http.get('data.json').success(drawChart);
         $scope.levelForSort = function (participant) {
             return padLeft(1000 - participant.level, 3) + participant.time
@@ -113,11 +112,11 @@
             column: $scope.levelForSort,
             descendingDisplay: true,
             descending: false
-        };
+        }
 
         $scope.selectedCls = function (column) {
             return column === $scope.sort.column && 'sort-' + $scope.sort.descendingDisplay;
-        };
+        }
 
         $scope.changeSorting = function (column) {
             var sort = $scope.sort;
@@ -132,7 +131,7 @@
                     sort.descendingDisplay = !sort.descendingDisplay;
                 }
             }
-        };
+        }
     }
 
     function drawChart(data) {
@@ -167,7 +166,7 @@
                     data: pieData
                 }
             ]
-        });
+        })
     }
 </script>
 </html>
