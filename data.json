@@ -135,11 +135,11 @@
   },
   {
     "name": "denis-labaye",
-    "level": 31,
+    "level": 33,
     "maxLevel": 33,
-    "time": "2013-01-17T19:58:54.000Z",
+    "time": "2013-01-17T20:35:01.000Z",
     "gravatar": "http://www.gravatar.com/avatar/faf5358ab24ee4aaee5086c943ecd9b6?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 20
   },
   {
@@ -152,11 +152,11 @@
   },
   {
     "name": "dwursteisen",
-    "level": 32,
+    "level": 33,
     "maxLevel": 33,
-    "time": "2013-01-17T20:30:44.000Z",
+    "time": "2013-01-17T20:35:16.000Z",
     "gravatar": "http://www.gravatar.com/avatar/0b54c0f079b22ef60df00c5d64744d63?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 20
   },
   {
@@ -206,11 +206,11 @@
   },
   {
     "name": "oxyde",
-    "level": 31,
+    "level": 33,
     "maxLevel": 33,
-    "time": "2013-01-17T20:30:44.000Z",
+    "time": "2013-01-17T20:35:36.000Z",
     "gravatar": "http://www.gravatar.com/avatar/638a15539632fc2caaf2a94975683f13?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 20
   },
   {
@@ -278,11 +278,11 @@
   },
   {
     "name": "JB",
-    "level": 32,
+    "level": 33,
     "maxLevel": 33,
-    "time": "2013-01-17T20:30:44.000Z",
+    "time": "2013-01-17T20:35:52.000Z",
     "gravatar": "http://www.gravatar.com/avatar/b123fe4bebd0bfd8fb985e60c14e36bd?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 20
   },
   {
@@ -368,11 +368,11 @@
   },
   {
     "name": "jcsirot",
-    "level": 32,
+    "level": 33,
     "maxLevel": 33,
-    "time": "2013-01-17T20:30:44.000Z",
+    "time": "2013-01-17T20:36:21.000Z",
     "gravatar": "http://www.gravatar.com/avatar/f420aa2420a222608f982f4ccfe3888d?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 20
   },
   {
@@ -473,11 +473,11 @@
   },
   {
     "name": "joel1di1",
-    "level": 31,
+    "level": 33,
     "maxLevel": 33,
-    "time": "2013-01-17T20:30:44.000Z",
+    "time": "2013-01-17T20:36:45.000Z",
     "gravatar": "http://www.gravatar.com/avatar/9de7b60b21fbff8ef111ec7b827de984?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 20
   },
   {
@@ -536,20 +536,20 @@
   },
   {
     "name": "TomEtJerem",
-    "level": 32,
+    "level": 33,
     "maxLevel": 33,
-    "time": "2013-01-17T20:30:44.000Z",
+    "time": "2013-01-17T20:37:08.000Z",
     "gravatar": "http://www.gravatar.com/avatar/118ef8afc587a7f4a9c979c091213255?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 20
   },
   {
     "name": "diodfr",
-    "level": 31,
+    "level": 33,
     "maxLevel": 33,
-    "time": "2013-01-17T20:30:44.000Z",
+    "time": "2013-01-17T20:37:22.000Z",
     "gravatar": "http://www.gravatar.com/avatar/d4e08e932563394be8acb10f0f1e109a?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 20
   },
   {
@@ -655,7 +655,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 33,
-    "time": "2013-01-17T19:38:05.000Z",
+    "time": "2013-01-17T20:38:45.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 20
@@ -742,9 +742,9 @@
   },
   {
     "name": "benzonico",
-    "level": 14,
+    "level": 18,
     "maxLevel": 33,
-    "time": "2013-01-17T08:04:23.000Z",
+    "time": "2013-01-17T20:37:57.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8351ca02028e290f64939beb7e1385c1?s\u003d64",
     "perf": 0,
     "maxPerf": 20
@@ -875,9 +875,9 @@
   },
   {
     "name": "sebc",
-    "level": 9,
+    "level": 13,
     "maxLevel": 33,
-    "time": "2013-01-17T08:04:23.000Z",
+    "time": "2013-01-17T20:38:45.000Z",
     "gravatar": "http://www.gravatar.com/avatar/a36365a1874360981942f089d839d473?s\u003d64",
     "perf": 0,
     "maxPerf": 20
