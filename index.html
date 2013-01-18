@@ -107,7 +107,7 @@
     function CodeStoryCtrl($scope, $http) {
         $scope.participants = $http.get('data.json').success(drawChart);
         $scope.levelForSort = function (participant) {
-            return participant.level * 100 + participant.perf
+            return participant.level * 100000 + participant.perf
         }
 
         $scope.sort = {
