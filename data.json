@@ -179,10 +179,9 @@
   },
   {
     "name": "egaillot",
-    "level": 9,
+    "level": 1,
     "maxLevel": 33,
-    "time": "2013-01-15T23:52:41.000Z",
-    "gravatar": "http://www.gravatar.com/avatar/7c44b2be264aff1bdec45c6a4bc3b041?s\u003d64",
+    "time": "2013-01-18T10:40:06.000Z",
     "perf": 0,
     "maxPerf": 20
   },
@@ -535,9 +534,9 @@
   },
   {
     "name": "XtlCnslt",
-    "level": 21,
+    "level": 23,
     "maxLevel": 33,
-    "time": "2013-01-18T09:40:18.000Z",
+    "time": "2013-01-18T10:40:26.000Z",
     "gravatar": "http://www.gravatar.com/avatar/5a9a33e6c0397ed112a7c955728f3a1f?s\u003d64",
     "perf": 0,
     "maxPerf": 20
@@ -707,7 +706,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 33,
-    "time": "2013-01-18T10:30:58.000Z",
+    "time": "2013-01-18T10:41:01.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 20
