@@ -232,9 +232,10 @@
   },
   {
     "name": "Titimoby",
-    "level": 2,
+    "level": 3,
     "maxLevel": 34,
-    "time": "2013-01-18T10:42:36.000Z",
+    "time": "2013-01-18T17:40:08.000Z",
+    "gravatar": "http://www.gravatar.com/avatar/49c8ec79aa3c6b2ed16105ff853953f6?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -438,9 +439,9 @@
   },
   {
     "name": "chbema",
-    "level": 5,
+    "level": 6,
     "maxLevel": 34,
-    "time": "2013-01-18T17:04:56.000Z",
+    "time": "2013-01-18T17:40:16.000Z",
     "gravatar": "http://www.gravatar.com/avatar/366750417d8797ed87bb0746a5b5cb47?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -724,7 +725,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-18T17:30:54.000Z",
+    "time": "2013-01-18T17:40:33.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
