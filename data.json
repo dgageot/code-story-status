@@ -927,9 +927,10 @@
   },
   {
     "name": "cafetux",
-    "level": 1,
+    "level": 3,
     "maxLevel": 33,
-    "time": "2013-01-18T09:39:13.000Z",
+    "time": "2013-01-18T09:47:26.000Z",
+    "gravatar": "http://www.gravatar.com/avatar/e3c7d94f6010ab9a687f69adde6e9f35?s\u003d64",
     "perf": 0,
     "maxPerf": 20
   },
