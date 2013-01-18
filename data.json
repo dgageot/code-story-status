@@ -1,9 +1,9 @@
 [
   {
     "name": "jeremie",
-    "level": 4,
+    "level": 5,
     "maxLevel": 34,
-    "time": "2013-01-18T09:34:03.000Z",
+    "time": "2013-01-18T21:20:01.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8643584b16941d2f2b532d122535a94e?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -734,7 +734,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-18T21:11:02.000Z",
+    "time": "2013-01-18T21:20:41.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -848,9 +848,9 @@
   },
   {
     "name": "ojacob",
-    "level": 20,
+    "level": 21,
     "maxLevel": 34,
-    "time": "2013-01-17T11:42:55.000Z",
+    "time": "2013-01-18T21:22:14.000Z",
     "gravatar": "http://www.gravatar.com/avatar/77ee850df2a36b9712a70b330cf8f85e?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
