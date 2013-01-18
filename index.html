@@ -134,6 +134,7 @@
         var pieData = _.chain(data)
                 .countBy("level")
                 .pairs()
+                .sortBy(function(p){ return parseFloat(p[0]); })
                 .value();
 
         chart = new Highcharts.Chart({
