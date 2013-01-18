@@ -112,26 +112,20 @@
 
         $scope.sort = {
             column: $scope.levelForSort,
-            descendingDisplay: true,
-            descending: false
+            descending: true
         }
 
         $scope.selectedCls = function (column) {
-            return column === $scope.sort.column && 'sort-' + $scope.sort.descendingDisplay;
+            return column === $scope.sort.column && 'sort-' + $scope.sort.descending;
         }
 
         $scope.changeSorting = function (column) {
             var sort = $scope.sort;
             if (sort.column === column) {
                 sort.descending = !sort.descending;
-                sort.descendingDisplay = !sort.descendingDisplay;
             } else {
                 sort.column = column;
-                sort.descendingDisplay = false;
                 sort.descending = false;
-                if (sort.column === $scope.levelForSort) {
-                    sort.descendingDisplay = !sort.descendingDisplay;
-                }
             }
         }
     }
