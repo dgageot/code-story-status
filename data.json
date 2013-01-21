@@ -386,11 +386,11 @@
   },
   {
     "name": "CyrilLacote",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:08.000Z",
+    "time": "2013-01-21T12:38:36.000Z",
     "gravatar": "http://www.gravatar.com/avatar/44e05663a595119d9f71d139461b5e88?s\u003d64",
-    "perf": 0,
+    "perf": 800,
     "maxPerf": 10000
   },
   {
