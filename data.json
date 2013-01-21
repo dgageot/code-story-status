@@ -3,7 +3,7 @@
     "name": "jeremie",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T15:08:41.000Z",
+    "time": "2013-01-21T15:33:53.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8643584b16941d2f2b532d122535a94e?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -55,9 +55,9 @@
   },
   {
     "name": "redfish4ktc",
-    "level": 13,
+    "level": 20,
     "maxLevel": 34,
-    "time": "2013-01-21T13:23:27.000Z",
+    "time": "2013-01-21T15:25:58.000Z",
     "gravatar": "http://www.gravatar.com/avatar/6c7f99e843b1694a14c3fc83802d4792?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -250,9 +250,9 @@
   },
   {
     "name": "Xtrmntr",
-    "level": 7,
+    "level": 8,
     "maxLevel": 34,
-    "time": "2013-01-21T14:56:55.000Z",
+    "time": "2013-01-21T15:34:01.000Z",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -380,7 +380,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T13:37:07.000Z",
     "gravatar": "http://www.gravatar.com/avatar/9ec96799dd90029b4f1caf6d1475c1bb?s\u003d64",
-    "perf": 6,
+    "perf": 7,
     "maxPerf": 10000
   },
   {
@@ -553,11 +553,11 @@
   },
   {
     "name": "XtlCnslt",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T14:26:34.000Z",
+    "time": "2013-01-21T15:17:49.000Z",
     "gravatar": "http://www.gravatar.com/avatar/5a9a33e6c0397ed112a7c955728f3a1f?s\u003d64",
-    "perf": 0,
+    "perf": 2000,
     "maxPerf": 10000
   },
   {
@@ -654,7 +654,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T14:14:44.000Z",
     "gravatar": "http://www.gravatar.com/avatar/abc63a326ea9ba46fbbb2651c710d6ef?s\u003d64",
-    "perf": 3,
+    "perf": 4,
     "maxPerf": 10000
   },
   {
@@ -695,9 +695,9 @@
   },
   {
     "name": "dpellier",
-    "level": 27,
+    "level": 32,
     "maxLevel": 34,
-    "time": "2013-01-21T14:55:26.000Z",
+    "time": "2013-01-21T15:28:08.000Z",
     "gravatar": "http://www.gravatar.com/avatar/c9319857fe19642614ec890d98c802c2?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -733,7 +733,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T15:11:20.000Z",
+    "time": "2013-01-21T15:36:46.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -865,11 +865,11 @@
   },
   {
     "name": "Raspberry-Pi",
-    "level": 24,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-14T23:54:10.000Z",
+    "time": "2013-01-21T15:38:43.000Z",
     "gravatar": "http://www.gravatar.com/avatar/5cbc2ec2a104710bed760df82a4cc24c?s\u003d64",
-    "perf": 0,
+    "perf": 50,
     "maxPerf": 10000
   },
   {
@@ -905,7 +905,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T14:28:29.000Z",
     "gravatar": "http://www.gravatar.com/avatar/fa65a26193f2474749b3a5f22472160d?s\u003d64",
-    "perf": 7,
+    "perf": 8,
     "maxPerf": 10000
   },
   {
