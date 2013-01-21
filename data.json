@@ -3,7 +3,7 @@
     "name": "jeremie",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T13:23:29.000Z",
+    "time": "2013-01-21T13:52:08.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8643584b16941d2f2b532d122535a94e?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -340,11 +340,11 @@
   },
   {
     "name": "gdhordain",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T14:01:21.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae943b063539e5fa7e625e50cdc01fde?s\u003d64",
-    "perf": 0,
+    "perf": 8,
     "maxPerf": 10000
   },
   {
@@ -380,7 +380,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T13:37:07.000Z",
     "gravatar": "http://www.gravatar.com/avatar/9ec96799dd90029b4f1caf6d1475c1bb?s\u003d64",
-    "perf": 8,
+    "perf": 7,
     "maxPerf": 10000
   },
   {
@@ -389,7 +389,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T12:38:36.000Z",
     "gravatar": "http://www.gravatar.com/avatar/44e05663a595119d9f71d139461b5e88?s\u003d64",
-    "perf": 700,
+    "perf": 800,
     "maxPerf": 10000
   },
   {
@@ -403,11 +403,11 @@
   },
   {
     "name": "jcsirot",
-    "level": 33,
+    "level": 34,
     "maxLevel": 34,
-    "time": "2013-01-21T13:40:43.000Z",
+    "time": "2013-01-21T14:05:57.000Z",
     "gravatar": "http://www.gravatar.com/avatar/f420aa2420a222608f982f4ccfe3888d?s\u003d64",
-    "perf": 2000,
+    "perf": 10000,
     "maxPerf": 10000
   },
   {
@@ -430,9 +430,9 @@
   },
   {
     "name": "obazoud",
-    "level": 8,
+    "level": 9,
     "maxLevel": 34,
-    "time": "2013-01-18T19:10:20.000Z",
+    "time": "2013-01-21T14:06:08.000Z",
     "gravatar": "http://www.gravatar.com/avatar/bc568a17c0916050278cee36c351187c?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -588,11 +588,11 @@
   },
   {
     "name": "Pticed",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:50:28.000Z",
     "gravatar": "http://www.gravatar.com/avatar/66411f269647a42d9509ca74ab513adc?s\u003d64",
-    "perf": 0,
+    "perf": 19,
     "maxPerf": 10000
   },
   {
@@ -885,7 +885,7 @@
     "name": "laurentpetit",
     "level": 34,
     "maxLevel": 34,
-    "time": "2013-01-21T13:23:27.000Z",
+    "time": "2013-01-21T13:51:49.000Z",
     "gravatar": "http://www.gravatar.com/avatar/6595ae6ba5ca0712e8e3074f2d9063d2?s\u003d64",
     "perf": 10000,
     "maxPerf": 10000
