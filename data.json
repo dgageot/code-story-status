@@ -3,7 +3,7 @@
     "name": "jeremie",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T22:40:02.000Z",
+    "time": "2013-01-21T22:50:03.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8643584b16941d2f2b532d122535a94e?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -19,9 +19,9 @@
   },
   {
     "name": "eTini",
-    "level": 24,
+    "level": 31,
     "maxLevel": 34,
-    "time": "2013-01-18T10:42:37.000Z",
+    "time": "2013-01-21T22:50:05.000Z",
     "gravatar": "http://www.gravatar.com/avatar/814533c1d939fa0d95785366ee7d6bec?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -398,7 +398,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T17:08:41.000Z",
     "gravatar": "http://www.gravatar.com/avatar/9ec96799dd90029b4f1caf6d1475c1bb?s\u003d64",
-    "perf": 7,
+    "perf": 5,
     "maxPerf": 10000
   },
   {
@@ -407,7 +407,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T17:08:41.000Z",
     "gravatar": "http://www.gravatar.com/avatar/44e05663a595119d9f71d139461b5e88?s\u003d64",
-    "perf": 800,
+    "perf": 700,
     "maxPerf": 10000
   },
   {
@@ -681,7 +681,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T16:10:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/abc63a326ea9ba46fbbb2651c710d6ef?s\u003d64",
-    "perf": 3,
+    "perf": 4,
     "maxPerf": 10000
   },
   {
@@ -760,7 +760,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T22:42:01.000Z",
+    "time": "2013-01-21T22:51:56.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -896,7 +896,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T17:08:41.000Z",
     "gravatar": "http://www.gravatar.com/avatar/bf98a57656425985310f5c984cd2c319?s\u003d64",
-    "perf": 200,
+    "perf": 100,
     "maxPerf": 10000
   },
   {
