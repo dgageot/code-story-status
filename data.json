@@ -3,18 +3,18 @@
     "name": "jeremie",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-19T01:30:03.000Z",
+    "time": "2013-01-21T13:23:29.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8643584b16941d2f2b532d122535a94e?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
   },
   {
     "name": "flagadajones",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:25:00.000Z",
     "gravatar": "http://www.gravatar.com/avatar/49d726644cf56d4b4a6c28c001b6d03a?s\u003d64",
-    "perf": 0,
+    "perf": 2000,
     "maxPerf": 10000
   },
   {
@@ -46,18 +46,18 @@
   },
   {
     "name": "dormeur",
-    "level": 9,
+    "level": 14,
     "maxLevel": 34,
-    "time": "2013-01-18T19:10:02.000Z",
+    "time": "2013-01-21T13:23:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/b7524eea51bd3a372af9f6e20b6eea8c?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
   },
   {
     "name": "redfish4ktc",
-    "level": 12,
+    "level": 13,
     "maxLevel": 34,
-    "time": "2013-01-17T08:04:23.000Z",
+    "time": "2013-01-21T13:23:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/6c7f99e843b1694a14c3fc83802d4792?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -90,11 +90,11 @@
   },
   {
     "name": "ndeloof",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:23:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 0,
+    "perf": 8,
     "maxPerf": 10000
   },
   {
@@ -117,11 +117,11 @@
   },
   {
     "name": "shionn",
-    "level": 32,
+    "level": 34,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:23:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/45bee60d91aa367b7f1a1aa14231b8c5?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 10000
   },
   {
@@ -144,11 +144,11 @@
   },
   {
     "name": "denis-labaye",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:23:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/faf5358ab24ee4aaee5086c943ecd9b6?s\u003d64",
-    "perf": 0,
+    "perf": 50,
     "maxPerf": 10000
   },
   {
@@ -161,11 +161,11 @@
   },
   {
     "name": "dwursteisen",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:23:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/0b54c0f079b22ef60df00c5d64744d63?s\u003d64",
-    "perf": 0,
+    "perf": 300,
     "maxPerf": 10000
   },
   {
@@ -215,9 +215,9 @@
   },
   {
     "name": "Cestpasdur",
-    "level": 14,
+    "level": 15,
     "maxLevel": 34,
-    "time": "2013-01-19T10:04:17.000Z",
+    "time": "2013-01-21T13:30:17.000Z",
     "gravatar": "http://www.gravatar.com/avatar/e5b415661373232ef6462eac70eb7670?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -233,10 +233,9 @@
   },
   {
     "name": "Titimoby",
-    "level": 3,
+    "level": 2,
     "maxLevel": 34,
-    "time": "2013-01-18T20:00:10.000Z",
-    "gravatar": "http://www.gravatar.com/avatar/49c8ec79aa3c6b2ed16105ff853953f6?s\u003d64",
+    "time": "2013-01-21T13:31:05.000Z",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -251,20 +250,20 @@
   },
   {
     "name": "Xtrmntr",
-    "level": 3,
+    "level": 4,
     "maxLevel": 34,
-    "time": "2013-01-18T19:51:34.000Z",
+    "time": "2013-01-21T13:31:19.000Z",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
   },
   {
     "name": "rlespinasse",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:31:56.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ca7b980dd681923cf42c2b93b45baf8d?s\u003d64",
-    "perf": 0,
+    "perf": 1,
     "maxPerf": 10000
   },
   {
@@ -305,20 +304,20 @@
   },
   {
     "name": "ojacquemart",
-    "level": 17,
+    "level": 20,
     "maxLevel": 34,
-    "time": "2013-01-19T00:30:13.000Z",
+    "time": "2013-01-21T13:33:16.000Z",
     "gravatar": "http://www.gravatar.com/avatar/26e7c1542e301495c85f0de6f62b88f1?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
   },
   {
     "name": "JB",
-    "level": 32,
+    "level": 34,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:34:03.000Z",
     "gravatar": "http://www.gravatar.com/avatar/b123fe4bebd0bfd8fb985e60c14e36bd?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 10000
   },
   {
@@ -350,11 +349,11 @@
   },
   {
     "name": "Apptom",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:36:07.000Z",
     "gravatar": "http://www.gravatar.com/avatar/47297fe99f65fd71ef2fda05486c5175?s\u003d64",
-    "perf": 0,
+    "perf": 2000,
     "maxPerf": 10000
   },
   {
@@ -377,11 +376,11 @@
   },
   {
     "name": "sebprunier",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:37:07.000Z",
     "gravatar": "http://www.gravatar.com/avatar/9ec96799dd90029b4f1caf6d1475c1bb?s\u003d64",
-    "perf": 0,
+    "perf": 8,
     "maxPerf": 10000
   },
   {
@@ -390,25 +389,25 @@
     "maxLevel": 34,
     "time": "2013-01-21T12:38:36.000Z",
     "gravatar": "http://www.gravatar.com/avatar/44e05663a595119d9f71d139461b5e88?s\u003d64",
-    "perf": 800,
+    "perf": 700,
     "maxPerf": 10000
   },
   {
     "name": "maximenowak",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:39:25.000Z",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 0,
+    "perf": 4,
     "maxPerf": 10000
   },
   {
     "name": "jcsirot",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:40:43.000Z",
     "gravatar": "http://www.gravatar.com/avatar/f420aa2420a222608f982f4ccfe3888d?s\u003d64",
-    "perf": 0,
+    "perf": 2000,
     "maxPerf": 10000
   },
   {
@@ -449,9 +448,9 @@
   },
   {
     "name": "chbema",
-    "level": 6,
+    "level": 9,
     "maxLevel": 34,
-    "time": "2013-01-18T17:40:16.000Z",
+    "time": "2013-01-21T13:42:23.000Z",
     "gravatar": "http://www.gravatar.com/avatar/366750417d8797ed87bb0746a5b5cb47?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -510,9 +509,9 @@
   },
   {
     "name": "fbaligand",
-    "level": 9,
+    "level": 20,
     "maxLevel": 34,
-    "time": "2013-01-19T10:54:37.000Z",
+    "time": "2013-01-21T13:46:10.000Z",
     "gravatar": "http://www.gravatar.com/avatar/1ee80ee0278e5ed57e43643ee4098ce6?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -554,9 +553,9 @@
   },
   {
     "name": "XtlCnslt",
-    "level": 24,
+    "level": 31,
     "maxLevel": 34,
-    "time": "2013-01-18T10:50:23.000Z",
+    "time": "2013-01-21T13:47:13.000Z",
     "gravatar": "http://www.gravatar.com/avatar/5a9a33e6c0397ed112a7c955728f3a1f?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -572,11 +571,11 @@
   },
   {
     "name": "DamienB",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:48:45.000Z",
     "gravatar": "http://www.gravatar.com/avatar/169032f2ed59261020a056eeb8b1ad9e?s\u003d64",
-    "perf": 0,
+    "perf": 6,
     "maxPerf": 10000
   },
   {
@@ -884,11 +883,11 @@
   },
   {
     "name": "laurentpetit",
-    "level": 32,
+    "level": 34,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T13:23:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/6595ae6ba5ca0712e8e3074f2d9063d2?s\u003d64",
-    "perf": 0,
+    "perf": 10000,
     "maxPerf": 10000
   },
   {
