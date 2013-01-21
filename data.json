@@ -3,7 +3,7 @@
     "name": "jeremie",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T14:37:48.000Z",
+    "time": "2013-01-21T15:00:27.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8643584b16941d2f2b532d122535a94e?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -250,9 +250,9 @@
   },
   {
     "name": "Xtrmntr",
-    "level": 5,
+    "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T14:37:56.000Z",
+    "time": "2013-01-21T14:56:55.000Z",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -331,9 +331,9 @@
   },
   {
     "name": "AlainMuller",
-    "level": 9,
+    "level": 20,
     "maxLevel": 34,
-    "time": "2013-01-15T23:52:41.000Z",
+    "time": "2013-01-21T14:54:16.000Z",
     "gravatar": "http://www.gravatar.com/avatar/1f1bbe56337f5f85744c1ea94aafcfc9?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -367,11 +367,11 @@
   },
   {
     "name": "julien",
-    "level": 33,
+    "level": 34,
     "maxLevel": 34,
-    "time": "2013-01-21T14:39:36.000Z",
+    "time": "2013-01-21T14:58:25.000Z",
     "gravatar": "http://www.gravatar.com/avatar/cf23eaf23d3545c891bde81041919a9b?s\u003d64",
-    "perf": 2000,
+    "perf": 10000,
     "maxPerf": 10000
   },
   {
@@ -380,7 +380,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T13:37:07.000Z",
     "gravatar": "http://www.gravatar.com/avatar/9ec96799dd90029b4f1caf6d1475c1bb?s\u003d64",
-    "perf": 7,
+    "perf": 6,
     "maxPerf": 10000
   },
   {
@@ -618,7 +618,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T14:12:12.000Z",
     "gravatar": "http://www.gravatar.com/avatar/244ca88ef39ec144d63d0b7792873fe1?s\u003d64",
-    "perf": 400,
+    "perf": 300,
     "maxPerf": 10000
   },
   {
@@ -695,9 +695,9 @@
   },
   {
     "name": "dpellier",
-    "level": 24,
+    "level": 27,
     "maxLevel": 34,
-    "time": "2013-01-17T18:08:04.000Z",
+    "time": "2013-01-21T14:55:26.000Z",
     "gravatar": "http://www.gravatar.com/avatar/c9319857fe19642614ec890d98c802c2?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -733,7 +733,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T14:40:14.000Z",
+    "time": "2013-01-21T15:02:44.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
