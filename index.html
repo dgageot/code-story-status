@@ -25,15 +25,19 @@
         .sort-false::before {
             content: '↑ ';
         }
+
+        .ng-cloak {
+            display: none !important;
+        }
     </style>
 </head>
-<body ng-controller="CodeStoryCtrl" ng-cloak >
+<body>
 <div class="container">
     <div class="page-header">
         <h1>CodeStory Challenge 2013</h1>
     </div>
     <div class="row">
-        <div class="span6">
+        <div class="span6 ng-cloak" ng-controller="CodeStoryCtrl">
             <h3>Liste des {{participants.data.length}} participants</h3>
 
             <form class="form-horizontal">
