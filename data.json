@@ -3,7 +3,7 @@
     "name": "jeremie",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T14:24:59.000Z",
+    "time": "2013-01-21T14:37:48.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8643584b16941d2f2b532d122535a94e?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -250,9 +250,9 @@
   },
   {
     "name": "Xtrmntr",
-    "level": 4,
+    "level": 5,
     "maxLevel": 34,
-    "time": "2013-01-21T13:31:19.000Z",
+    "time": "2013-01-21T14:37:56.000Z",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -367,11 +367,11 @@
   },
   {
     "name": "julien",
-    "level": 32,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-21T12:29:12.000Z",
+    "time": "2013-01-21T14:39:36.000Z",
     "gravatar": "http://www.gravatar.com/avatar/cf23eaf23d3545c891bde81041919a9b?s\u003d64",
-    "perf": 0,
+    "perf": 2000,
     "maxPerf": 10000
   },
   {
@@ -618,7 +618,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T14:12:12.000Z",
     "gravatar": "http://www.gravatar.com/avatar/244ca88ef39ec144d63d0b7792873fe1?s\u003d64",
-    "perf": 300,
+    "perf": 400,
     "maxPerf": 10000
   },
   {
@@ -733,7 +733,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-21T14:27:38.000Z",
+    "time": "2013-01-21T14:40:14.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
