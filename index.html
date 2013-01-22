@@ -26,7 +26,7 @@
             content: '↑ ';
         }
 
-        .ng-cloak {
+        [ng\:cloak], [ng-cloak] {
             display: none !important;
         }
     </style>
@@ -37,8 +37,8 @@
         <h1>CodeStory Challenge 2013</h1>
     </div>
     <div class="row">
-        <div class="span6 ng-cloak" ng-controller="CodeStoryCtrl">
-            <h3>Liste des {{participants.data.length}} participants</h3>
+        <div class="span6" ng-controller="CodeStoryCtrl">
+            <h3>Liste des <span ng-cloak>{{participants.data.length}} </span>participants</h3>
 
             <form class="form-horizontal">
                 <div class="control-group">
@@ -57,7 +57,7 @@
                     <th ng-class="selectedCls('perf')" ng-click="changeSorting('perf')">Performance</th>
                     <th ng-class="selectedCls('time')" ng-click="changeSorting('time')">Réponse</th>
                 </tr>
-                <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
+                <tr ng-cloak ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
                     <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/> {{participant.name}}</td>
                     <td>{{participant.level}} / {{participant.maxLevel}}</td>
                     <td>{{participant.perf}} / {{participant.maxPerf}}</td>
