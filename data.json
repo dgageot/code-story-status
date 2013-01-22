@@ -407,7 +407,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T17:08:41.000Z",
     "gravatar": "http://www.gravatar.com/avatar/44e05663a595119d9f71d139461b5e88?s\u003d64",
-    "perf": 700,
+    "perf": 800,
     "maxPerf": 10000
   },
   {
@@ -531,7 +531,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T15:11:33.000Z",
     "gravatar": "http://www.gravatar.com/avatar/0cae4b1a93168c4f183395f396c2437d?s\u003d64",
-    "perf": 200,
+    "perf": 300,
     "maxPerf": 10000
   },
   {
@@ -760,7 +760,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-22T05:02:16.000Z",
+    "time": "2013-01-22T05:12:32.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -869,7 +869,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T14:19:33.000Z",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 2000,
+    "perf": 11,
     "maxPerf": 10000
   },
   {
@@ -896,7 +896,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T17:08:41.000Z",
     "gravatar": "http://www.gravatar.com/avatar/bf98a57656425985310f5c984cd2c319?s\u003d64",
-    "perf": 200,
+    "perf": 100,
     "maxPerf": 10000
   },
   {
