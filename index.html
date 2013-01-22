@@ -55,12 +55,14 @@
                     <th ng-class="selectedCls('name')" ng-click="changeSorting('name')">Participant</th>
                     <th ng-class="selectedCls(levelForSort)" ng-click="changeSorting(levelForSort)">Score</th>
                     <th ng-class="selectedCls('perf')" ng-click="changeSorting('perf')">Performance</th>
+                    <th ng-class="selectedCls('classement')" ng-click="changeSorting('classement')">Classement</th>
                     <th ng-class="selectedCls('time')" ng-click="changeSorting('time')">Réponse</th>
                 </tr>
                 <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
                     <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/> {{participant.name}}</td>
                     <td>{{participant.level}} / {{participant.maxLevel}}</td>
                     <td>{{participant.perf}} / {{participant.maxPerf}}</td>
+                    <td>{{participant.classement}} / {{participants.data.length}}</td>
                     <td>{{participant.time | prettyDate}}</td>
                 </tr>
             </table>
@@ -109,10 +111,12 @@
     }
 
     function CodeStoryCtrl($scope, $http) {
-        $scope.participants = $http.get('data.json').success(drawChart);
-        $scope.levelForSort = function (participant) {
-            return participant.level * 100000 + participant.perf
-        }
+        $scope.participants = $http.get('data.json').success(function(participants) {
+             addClassementToParticipants(participants);
+             drawChart(participants);
+        });
+
+        $scope.levelForSort = levelForSort;
 
         $scope.sort = {
             column: $scope.levelForSort,
@@ -133,6 +137,42 @@
             }
         }
     }
+    
+    
+    
+    function levelForSort(participant) {
+        return participant.level * 100000 + participant.perf
+    }
+    
+    function addClassementToParticipants(participants) {
+        // Sort on level
+        participants.sort(function(participant1, participant2){
+            levelForSort1 = levelForSort(participant1);
+            levelForSort2 = levelForSort(participant2);
+            if (levelForSort1 > levelForSort2) {
+                return -1;
+            }
+            if (levelForSort1 < levelForSort2) {
+                return 1;
+            }
+            return 1;
+        });
+
+        // Calculate "Classement"
+        // If levelForSort is equal, same classement.
+        lastClassement = 1;
+        lastLevel = "";
+        for (i=0;i<participants.length;i++) {
+            currentLevelForSort = levelForSort(participants[i]) ;
+            if (lastLevel == currentLevelForSort) {
+                participants[i].classement = lastClassement;
+            } else {
+                lastClassement = i+1;
+                lastLevel = currentLevelForSort;
+                participants[i].classement = lastClassement;
+            }
+        }
+    };
 
     function drawChart(data) {
         var pieData = _.chain(data)
