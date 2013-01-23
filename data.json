@@ -185,9 +185,9 @@
   },
   {
     "name": "guilbill",
-    "level": 4,
+    "level": 5,
     "maxLevel": 34,
-    "time": "2013-01-23T21:00:17.000Z",
+    "time": "2013-01-23T21:20:10.000Z",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -351,9 +351,9 @@
   },
   {
     "name": "AlainMuller",
-    "level": 20,
+    "level": 27,
     "maxLevel": 34,
-    "time": "2013-01-23T20:41:14.000Z",
+    "time": "2013-01-23T21:20:26.000Z",
     "gravatar": "http://www.gravatar.com/avatar/1f1bbe56337f5f85744c1ea94aafcfc9?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -661,9 +661,9 @@
   },
   {
     "name": "LittleGhost",
-    "level": 20,
+    "level": 27,
     "maxLevel": 34,
-    "time": "2013-01-23T19:50:10.000Z",
+    "time": "2013-01-23T21:21:10.000Z",
     "gravatar": "http://www.gravatar.com/avatar/244ca88ef39ec144d63d0b7792873fe1?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -779,7 +779,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-23T21:00:56.000Z",
+    "time": "2013-01-23T21:20:52.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -858,7 +858,7 @@
     "name": "bryo",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-23T21:00:57.000Z",
+    "time": "2013-01-23T21:20:53.000Z",
     "gravatar": "http://www.gravatar.com/avatar/84ff657f2fdd5be808fdb1b58b074b58?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
