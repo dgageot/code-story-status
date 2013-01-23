@@ -189,7 +189,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T00:40:03.000Z",
+    "time": "2013-01-24T00:50:02.000Z",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -366,7 +366,7 @@
     "maxLevel": 34,
     "time": "2013-01-23T22:01:00.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae943b063539e5fa7e625e50cdc01fde?s\u003d64",
-    "perf": 700,
+    "perf": 800,
     "maxPerf": 10000
   },
   {
@@ -553,7 +553,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T00:01:53.000Z",
     "gravatar": "http://www.gravatar.com/avatar/1ee80ee0278e5ed57e43643ee4098ce6?s\u003d64",
-    "perf": 12,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -700,9 +700,9 @@
   },
   {
     "name": "mouhcinemoulou",
-    "level": 20,
+    "level": 26,
     "maxLevel": 34,
-    "time": "2013-01-24T00:11:35.000Z",
+    "time": "2013-01-24T00:50:50.000Z",
     "gravatar": "http://www.gravatar.com/avatar/abc63a326ea9ba46fbbb2651c710d6ef?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -783,7 +783,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T00:40:50.000Z",
+    "time": "2013-01-24T00:50:54.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -862,7 +862,7 @@
     "name": "bryo",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T00:40:55.000Z",
+    "time": "2013-01-24T00:50:57.000Z",
     "gravatar": "http://www.gravatar.com/avatar/84ff657f2fdd5be808fdb1b58b074b58?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -882,7 +882,7 @@
     "maxLevel": 34,
     "time": "2013-01-23T23:19:13.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8351ca02028e290f64939beb7e1385c1?s\u003d64",
-    "perf": 14,
+    "perf": 13,
     "maxPerf": 10000
   },
   {
@@ -891,7 +891,7 @@
     "maxLevel": 34,
     "time": "2013-01-23T22:12:52.000Z",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 1000,
+    "perf": 300,
     "maxPerf": 10000
   },
   {
