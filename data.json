@@ -94,7 +94,7 @@
     "maxLevel": 34,
     "time": "2013-01-22T17:21:57.000Z",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 7,
+    "perf": 8,
     "maxPerf": 10000
   },
   {
@@ -655,7 +655,7 @@
     "maxLevel": 34,
     "time": "2013-01-21T17:08:41.000Z",
     "gravatar": "http://www.gravatar.com/avatar/244ca88ef39ec144d63d0b7792873fe1?s\u003d64",
-    "perf": 400,
+    "perf": 600,
     "maxPerf": 10000
   },
   {
@@ -770,7 +770,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-23T08:11:48.000Z",
+    "time": "2013-01-23T08:21:32.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -850,7 +850,7 @@
     "name": "bryo",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-23T08:11:56.000Z",
+    "time": "2013-01-23T08:21:39.000Z",
     "gravatar": "http://www.gravatar.com/avatar/84ff657f2fdd5be808fdb1b58b074b58?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -992,7 +992,7 @@
     "name": "FF",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-23T08:12:53.000Z",
+    "time": "2013-01-23T08:22:45.000Z",
     "gravatar": "http://www.gravatar.com/avatar/020a02c3979b484e53b1c0d217db9115?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
