@@ -80,6 +80,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.0.0-rc.3/lodash.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/highcharts/2.3.1/highcharts.js"></script>
 <script src="http://timeago.yarp.com/jquery.timeago.js"></script>
+<script src="https://raw.github.com/rmm5t/jquery-timeago/master/locales/jquery.timeago.fr-short.js"></script>
 <script>
     angular.module("CodeStory", []).
             filter('prettyDate', function () {
@@ -141,21 +142,5 @@
             ]
         })
     }
-
-    jQuery.timeago.settings.strings = {
-        prefixAgo: "il y a",
-        prefixFromNow: "d'ici",
-        seconds: "moins d'une minute",
-        minute: "une minute",
-        minutes: "%d minutes",
-        hour: "une heure",
-        hours: "%d heures",
-        day: "un jour",
-        days: "%d jours",
-        month: "un mois",
-        months: "%d mois",
-        year: "un an",
-        years: "%d ans"
-    };
 </script>
 </html>
