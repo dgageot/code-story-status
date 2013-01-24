@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T22:50:04.000+0100",
+    "time": "2013-01-24T22:55:04.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -367,7 +367,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T22:21:37.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/df747935bec069aee97b9fcd124fc7c3?s\u003d64",
-    "perf": 11,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -572,7 +572,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:20:46.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/1ee80ee0278e5ed57e43643ee4098ce6?s\u003d64",
-    "perf": 11,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -802,7 +802,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T22:51:11.000+0100",
+    "time": "2013-01-24T22:56:35.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -888,9 +888,9 @@
   },
   {
     "name": "bryo",
-    "level": 16,
+    "level": 20,
     "maxLevel": 34,
-    "time": "2013-01-24T21:55:52.000+0100",
+    "time": "2013-01-24T22:57:29.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/84ff657f2fdd5be808fdb1b58b074b58?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -919,7 +919,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:24:36.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 800,
+    "perf": 700,
     "maxPerf": 10000
   },
   {
@@ -955,7 +955,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T21:43:02.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/5cbc2ec2a104710bed760df82a4cc24c?s\u003d64",
-    "perf": 300,
+    "perf": 400,
     "maxPerf": 10000
   },
   {
@@ -991,7 +991,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:20:46.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/fa65a26193f2474749b3a5f22472160d?s\u003d64",
-    "perf": 8,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
