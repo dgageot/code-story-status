@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html ng-app="codeStoryStatusApp">
+<html ng-app="CodeStory">
 <head>
     <title>CodeStory Challenge 2013</title>
     <meta charset='utf-8'>
     <link type='image/png' rel='shortcut icon' href='fusee-16x16.png'/>
-    <link href="css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <style>
         .table td {
             vertical-align: middle;
@@ -25,23 +25,28 @@
         .sort-false::before {
             content: '↑ ';
         }
+
+        [ng\:cloak], [ng-cloak] {
+            display: none !important;
+        }
     </style>
 </head>
-<body ng-controller="CodeStoryCtrl" ng-cloak >
+<body>
 <div class="container">
     <div class="page-header">
         <h1>CodeStory Challenge 2013</h1>
     </div>
     <div class="row">
-        <div class="span6">
-            <h3>Liste des {{participants.data.length}} participants</h3>
+        <div class="span6" ng-controller="CodeStoryCtrl">
+            <h3>Liste des <span ng-cloak>{{participants.data.length}} </span>participants</h3>
 
             <form class="form-horizontal">
                 <div class="control-group">
                     <label class="control-label" for="inputQuery">Recherche : </label>
 
                     <div class="controls">
-                        <input ng-model="query" id="inputQuery" type="text" class="input-medium search-query"/>
+                        <input ng-model="query" id="inputQuery" type="text" autofocus="autofocus"
+                               class="input-medium search-query"/>
                     </div>
                 </div>
             </form>
@@ -53,7 +58,8 @@
                     <th ng-class="selectedCls('perf')" ng-click="changeSorting('perf')">Performance</th>
                     <th ng-class="selectedCls('time')" ng-click="changeSorting('time')">Réponse</th>
                 </tr>
-                <tr ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
+                <tr ng-cloak
+                    ng-repeat="participant in participants.data | filter:query | orderBy:sort.column:sort.descending">
                     <td><img width="32" height="32" ng-src="{{participant.gravatar}}"/> {{participant.name}}</td>
                     <td>{{participant.level}} / {{participant.maxLevel}}</td>
                     <td>{{participant.perf}} / {{participant.maxPerf}}</td>
@@ -69,40 +75,17 @@
     </div>
 </div>
 </body>
-<script src="js/angular.min.js"></script>
-<script src="js/underscore-min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/highcharts.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.0.0-rc.3/lodash.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highcharts/2.3.1/highcharts.js"></script>
+<script src="http://timeago.yarp.com/jquery.timeago.js"></script>
+<script src="https://raw.github.com/rmm5t/jquery-timeago/master/locales/jquery.timeago.fr-short.js"></script>
 <script>
-    angular.module("codeStoryStatusApp", []).
+    angular.module("CodeStory", []).
             filter('prettyDate', function () {
-                return function prettyDate(time) { //  blatlanly adapted from http://ejohn.org/files/pretty.js
-                    var date = new Date((time || "").replace(/-/g, "/").replace(/T/g, " ").replace(/\.000Z/g, "")),
-                            diff = (((new Date()).getTime() - date.getTime()) / 1000),
-                            day_diff = Math.floor(diff / 86400);
-
-                    if (isNaN(day_diff) || day_diff < 0 || day_diff >= 31)
-                        return;
-
-                    return day_diff == 0 && (
-                            diff < 60 && 'à l\'instant' ||
-                                    diff < 120 && 'il y a 1 minute' ||
-                                    diff < 3600 && 'il y a ' + Math.floor(diff / 60) + ' minutes' ||
-                                    diff < 7200 && 'il y a 1 heure' ||
-                                    diff < 86400 && 'il y a ' + Math.floor(diff / 3600) + ' heures') ||
-                            day_diff == 1 && 'hier' ||
-                            day_diff < 7 && 'il y a ' + day_diff + ' jours' ||
-                            day_diff < 31 && 'il y a ' + Math.ceil(day_diff / 7) + ' semaines';
-                }
+                return $.timeago
             });
-
-    function padLeft(number, length) {
-        var str = '' + number;
-        while (str.length < length) {
-            str = '0' + str;
-        }
-        return str;
-    }
 
     function CodeStoryCtrl($scope, $http) {
         $scope.participants = $http.get('data.json').success(drawChart);
@@ -131,12 +114,6 @@
     }
 
     function drawChart(data) {
-        var pieData = _.chain(data)
-                .countBy("level")
-                .pairs()
-                .sortBy(function(p){ return parseFloat(p[0]); })
-                .value();
-
         chart = new Highcharts.Chart({
             chart: {renderTo: 'container'},
             title: {text: ''},
@@ -160,7 +137,7 @@
                 {
                     type: 'pie',
                     name: 'Part',
-                    data: pieData
+                    data: _(data).countBy("level").pairs().sortBy(function(p){ return parseFloat(p[0]); }).value()
                 }
             ]
         })
