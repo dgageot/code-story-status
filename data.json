@@ -94,7 +94,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T07:59:53.000Z",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 8,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
@@ -189,7 +189,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T15:00:03.000Z",
+    "time": "2013-01-24T15:10:04.000Z",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -354,9 +354,9 @@
   },
   {
     "name": "AlainMuller",
-    "level": 27,
+    "level": 31,
     "maxLevel": 34,
-    "time": "2013-01-23T21:20:26.000Z",
+    "time": "2013-01-24T15:10:11.000Z",
     "gravatar": "http://www.gravatar.com/avatar/1f1bbe56337f5f85744c1ea94aafcfc9?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -784,7 +784,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T15:01:21.000Z",
+    "time": "2013-01-24T15:11:28.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -795,7 +795,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T07:59:53.000Z",
     "gravatar": "http://www.gravatar.com/avatar/444d87e9c4ebfd185fc7f36e7df9f56a?s\u003d64",
-    "perf": 6,
+    "perf": 7,
     "maxPerf": 10000
   },
   {
@@ -863,7 +863,7 @@
     "name": "bryo",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T15:01:24.000Z",
+    "time": "2013-01-24T15:11:26.000Z",
     "gravatar": "http://www.gravatar.com/avatar/84ff657f2fdd5be808fdb1b58b074b58?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -883,7 +883,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T07:59:53.000Z",
     "gravatar": "http://www.gravatar.com/avatar/8351ca02028e290f64939beb7e1385c1?s\u003d64",
-    "perf": 14,
+    "perf": 12,
     "maxPerf": 10000
   },
   {
@@ -963,7 +963,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T14:42:46.000Z",
     "gravatar": "http://www.gravatar.com/avatar/fa65a26193f2474749b3a5f22472160d?s\u003d64",
-    "perf": 10,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
