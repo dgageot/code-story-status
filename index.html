@@ -118,7 +118,7 @@
             chart: {renderTo: 'container'},
             title: {text: ''},
             tooltip: {
-                pointFormat: '<b>{point.name} points</b>: {point.percentage}%',
+                pointFormat: '<b>{point.name} points</b>: {point.percentage}% ({point.y} participants)',
                 percentageDecimals: 0
             },
             plotOptions: {
@@ -128,7 +128,7 @@
                     dataLabels: {
                         enabled: true,
                         formatter: function () {
-                            return '<b>' + this.point.name + ' points</b>: ' + Math.round(this.percentage) + ' %';
+                            return '<b>' + this.point.name + ' points</b>: ' + Math.round(this.percentage) + ' %' + ' (' + this.y + ')';
                         }
                     }
                 }
