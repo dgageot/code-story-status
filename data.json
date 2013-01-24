@@ -94,7 +94,7 @@
     "maxLevel": 34,
     "time": "2013-01-23T21:41:15.000Z",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 9,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -189,7 +189,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T01:00:10.000Z",
+    "time": "2013-01-24T01:10:03.000Z",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -553,7 +553,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T00:01:53.000Z",
     "gravatar": "http://www.gravatar.com/avatar/1ee80ee0278e5ed57e43643ee4098ce6?s\u003d64",
-    "perf": 12,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -704,7 +704,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T01:01:44.000Z",
     "gravatar": "http://www.gravatar.com/avatar/abc63a326ea9ba46fbbb2651c710d6ef?s\u003d64",
-    "perf": 11,
+    "perf": 12,
     "maxPerf": 10000
   },
   {
@@ -783,7 +783,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T01:00:56.000Z",
+    "time": "2013-01-24T01:10:47.000Z",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -794,7 +794,7 @@
     "maxLevel": 34,
     "time": "2013-01-23T21:43:00.000Z",
     "gravatar": "http://www.gravatar.com/avatar/444d87e9c4ebfd185fc7f36e7df9f56a?s\u003d64",
-    "perf": 7,
+    "perf": 8,
     "maxPerf": 10000
   },
   {
@@ -862,7 +862,7 @@
     "name": "bryo",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-24T01:01:00.000Z",
+    "time": "2013-01-24T01:10:57.000Z",
     "gravatar": "http://www.gravatar.com/avatar/84ff657f2fdd5be808fdb1b58b074b58?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -891,7 +891,7 @@
     "maxLevel": 34,
     "time": "2013-01-23T22:12:52.000Z",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 1000,
+    "perf": 600,
     "maxPerf": 10000
   },
   {
@@ -900,7 +900,7 @@
     "maxLevel": 34,
     "time": "2013-01-23T23:22:36.000Z",
     "gravatar": "http://www.gravatar.com/avatar/0973036c24ea715fe206af1567b4ec54?s\u003d64",
-    "perf": 14,
+    "perf": 13,
     "maxPerf": 10000
   },
   {
