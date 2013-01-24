@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-25T00:10:03.000+0100",
+    "time": "2013-01-25T00:15:03.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -231,11 +231,11 @@
   },
   {
     "name": "ypetit",
-    "level": 31,
+    "level": 33,
     "maxLevel": 34,
-    "time": "2013-01-25T00:10:04.000+0100",
+    "time": "2013-01-25T00:15:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/a032ce09ea1c0aef1d231fe525a49da6?s\u003d64",
-    "perf": 0,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -367,7 +367,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T22:21:37.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/df747935bec069aee97b9fcd124fc7c3?s\u003d64",
-    "perf": 11,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -572,7 +572,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:20:46.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/1ee80ee0278e5ed57e43643ee4098ce6?s\u003d64",
-    "perf": 10,
+    "perf": 11,
     "maxPerf": 10000
   },
   {
@@ -802,7 +802,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-25T00:11:18.000+0100",
+    "time": "2013-01-25T00:15:59.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -813,7 +813,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:20:46.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/444d87e9c4ebfd185fc7f36e7df9f56a?s\u003d64",
-    "perf": 7,
+    "perf": 6,
     "maxPerf": 10000
   },
   {
@@ -910,7 +910,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:24:36.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/8351ca02028e290f64939beb7e1385c1?s\u003d64",
-    "perf": 15,
+    "perf": 14,
     "maxPerf": 10000
   },
   {
@@ -919,7 +919,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:24:36.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 5,
+    "perf": 4,
     "maxPerf": 10000
   },
   {
@@ -928,7 +928,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T07:59:52.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/0973036c24ea715fe206af1567b4ec54?s\u003d64",
-    "perf": 13,
+    "perf": 15,
     "maxPerf": 10000
   },
   {
@@ -1074,9 +1074,9 @@
   },
   {
     "name": "frankyfred",
-    "level": 5,
+    "level": 6,
     "maxLevel": 34,
-    "time": "2013-01-25T00:01:53.000+0100",
+    "time": "2013-01-25T00:16:48.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/03730b9addb36195c5cd6acdcf7f0bde?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
