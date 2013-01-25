@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-25T12:10:03.000+0100",
+    "time": "2013-01-25T12:15:03.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -367,7 +367,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:37.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/df747935bec069aee97b9fcd124fc7c3?s\u003d64",
-    "perf": 10,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
@@ -385,7 +385,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae943b063539e5fa7e625e50cdc01fde?s\u003d64",
-    "perf": 2000,
+    "perf": 1000,
     "maxPerf": 10000
   },
   {
@@ -466,7 +466,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:37.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/825fafb34f42c138a2e4370e308ad705?s\u003d64",
-    "perf": 5,
+    "perf": 6,
     "maxPerf": 10000
   },
   {
@@ -674,9 +674,9 @@
   },
   {
     "name": "skydjol",
-    "level": 5,
+    "level": 6,
     "maxLevel": 35,
-    "time": "2013-01-25T11:05:38.000+0100",
+    "time": "2013-01-25T12:16:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/374b8d24e59503d5fa8c68dd5a584f62?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -802,7 +802,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-25T12:11:30.000+0100",
+    "time": "2013-01-25T12:16:42.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -813,7 +813,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/444d87e9c4ebfd185fc7f36e7df9f56a?s\u003d64",
-    "perf": 6,
+    "perf": 7,
     "maxPerf": 10000
   },
   {
@@ -919,7 +919,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 4,
+    "perf": 5,
     "maxPerf": 10000
   },
   {
@@ -1083,9 +1083,9 @@
   },
   {
     "name": "julien_scala",
-    "level": 34,
+    "level": 35,
     "maxLevel": 35,
-    "time": "2013-01-24T20:20:44.000+0100",
+    "time": "2013-01-25T12:17:14.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/cf23eaf23d3545c891bde81041919a9b?s\u003d64",
     "perf": 10000,
     "maxPerf": 10000
