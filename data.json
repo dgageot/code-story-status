@@ -103,7 +103,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:20:46.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 8,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
@@ -173,7 +173,7 @@
     "maxLevel": 34,
     "time": "2013-01-25T01:06:44.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/0b54c0f079b22ef60df00c5d64744d63?s\u003d64",
-    "perf": 1000,
+    "perf": 300,
     "maxPerf": 10000
   },
   {
@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-25T10:35:03.000+0100",
+    "time": "2013-01-25T10:40:03.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -674,9 +674,9 @@
   },
   {
     "name": "skydjol",
-    "level": 4,
+    "level": 5,
     "maxLevel": 34,
-    "time": "2013-01-25T00:35:48.000+0100",
+    "time": "2013-01-25T10:41:21.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/374b8d24e59503d5fa8c68dd5a584f62?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -802,7 +802,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 34,
-    "time": "2013-01-25T10:36:38.000+0100",
+    "time": "2013-01-25T10:41:33.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -910,7 +910,7 @@
     "maxLevel": 34,
     "time": "2013-01-24T20:24:36.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/8351ca02028e290f64939beb7e1385c1?s\u003d64",
-    "perf": 15,
+    "perf": 13,
     "maxPerf": 10000
   },
   {
