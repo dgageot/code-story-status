@@ -41,7 +41,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T17:00:42.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/7d1cae5a72c40c302eef563709d034ea?s\u003d64",
-    "perf": 10,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
@@ -103,7 +103,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 8,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-26T21:00:03.000+0100",
+    "time": "2013-01-26T21:05:03.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -368,7 +368,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:37.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/df747935bec069aee97b9fcd124fc7c3?s\u003d64",
-    "perf": 11,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -449,7 +449,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 200,
+    "perf": 30,
     "maxPerf": 10000
   },
   {
@@ -803,7 +803,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-26T21:01:23.000+0100",
+    "time": "2013-01-26T21:06:10.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -814,7 +814,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/444d87e9c4ebfd185fc7f36e7df9f56a?s\u003d64",
-    "perf": 7,
+    "perf": 6,
     "maxPerf": 10000
   },
   {
@@ -911,7 +911,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/8351ca02028e290f64939beb7e1385c1?s\u003d64",
-    "perf": 14,
+    "perf": 15,
     "maxPerf": 10000
   },
   {
