@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-26T13:00:04.000+0100",
+    "time": "2013-01-26T13:05:03.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -236,7 +236,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:34.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/a032ce09ea1c0aef1d231fe525a49da6?s\u003d64",
-    "perf": 13,
+    "perf": 12,
     "maxPerf": 10000
   },
   {
@@ -279,7 +279,7 @@
     "maxLevel": 35,
     "time": "2013-01-24T20:20:45.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
-    "perf": 5,
+    "perf": 4,
     "maxPerf": 10000
   },
   {
@@ -449,7 +449,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 200,
+    "perf": 11,
     "maxPerf": 10000
   },
   {
@@ -648,9 +648,9 @@
   },
   {
     "name": "bartavelle",
-    "level": 20,
+    "level": 21,
     "maxLevel": 35,
-    "time": "2013-01-24T20:20:45.000+0100",
+    "time": "2013-01-26T13:06:02.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/2055a0b8bfcd3b02aa3109d09339fe91?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -803,7 +803,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-26T13:01:25.000+0100",
+    "time": "2013-01-26T13:06:14.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -911,7 +911,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/8351ca02028e290f64939beb7e1385c1?s\u003d64",
-    "perf": 15,
+    "perf": 14,
     "maxPerf": 10000
   },
   {
