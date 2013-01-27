@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-27T12:50:03.000+0100",
+    "time": "2013-01-27T12:55:03.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -279,7 +279,7 @@
     "maxLevel": 35,
     "time": "2013-01-24T20:20:45.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
-    "perf": 5,
+    "perf": 4,
     "maxPerf": 10000
   },
   {
@@ -368,7 +368,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:37.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/df747935bec069aee97b9fcd124fc7c3?s\u003d64",
-    "perf": 11,
+    "perf": 12,
     "maxPerf": 10000
   },
   {
@@ -449,7 +449,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 2000,
+    "perf": 300,
     "maxPerf": 10000
   },
   {
@@ -467,7 +467,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:37.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/825fafb34f42c138a2e4370e308ad705?s\u003d64",
-    "perf": 6,
+    "perf": 5,
     "maxPerf": 10000
   },
   {
@@ -803,7 +803,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-27T12:51:10.000+0100",
+    "time": "2013-01-27T12:56:07.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -920,7 +920,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 4,
+    "perf": 5,
     "maxPerf": 10000
   },
   {
