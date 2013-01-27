@@ -41,7 +41,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T17:00:42.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/7d1cae5a72c40c302eef563709d034ea?s\u003d64",
-    "perf": 10,
+    "perf": 11,
     "maxPerf": 10000
   },
   {
@@ -68,7 +68,7 @@
     "maxLevel": 35,
     "time": "2013-01-26T05:15:39.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/6c7f99e843b1694a14c3fc83802d4792?s\u003d64",
-    "perf": 8,
+    "perf": 7,
     "maxPerf": 10000
   },
   {
@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-27T14:00:03.000+0100",
+    "time": "2013-01-27T14:05:03.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -368,7 +368,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:37.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/df747935bec069aee97b9fcd124fc7c3?s\u003d64",
-    "perf": 10,
+    "perf": 11,
     "maxPerf": 10000
   },
   {
@@ -494,7 +494,7 @@
     "maxLevel": 35,
     "time": "2013-01-26T19:46:18.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/133b00fcaf11e63476ed9997e56e0a6c?s\u003d64",
-    "perf": 15,
+    "perf": 19,
     "maxPerf": 10000
   },
   {
@@ -814,7 +814,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/444d87e9c4ebfd185fc7f36e7df9f56a?s\u003d64",
-    "perf": 7,
+    "perf": 6,
     "maxPerf": 10000
   },
   {
