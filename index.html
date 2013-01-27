@@ -37,6 +37,12 @@
         <h1>CodeStory Challenge 2013</h1>
     </div>
     <div class="row">
+        <div class="span12">
+            <h3>Historique des scores</h3>
+            <div id="scores-timeseries"></div>
+        </div>
+    </div>
+    <div class="row">
         <div class="span6" ng-controller="CodeStoryCtrl">
             <h3>Liste des <span ng-cloak>{{participants.data.length}} </span>participants</h3>
 
@@ -88,6 +94,7 @@
             });
 
     function CodeStoryCtrl($scope, $http) {
+        $http.get('scores-timeseries.json').success(drawScoresTimeseries);
         $scope.participants = $http.get('data.json').success(drawChart);
         $scope.levelForSort = function (participant) {
             return participant.level * 100000 + participant.perf
@@ -141,6 +148,45 @@
                 }
             ]
         })
+    }
+
+    function drawScoresTimeseries(scoresTimeseries) {
+        var chart = new Highcharts.Chart({
+            chart: {
+                renderTo: 'scores-timeseries',
+                type: 'line'
+            },
+            title: {
+                text: ''
+            },
+            xAxis: {
+                type: 'datetime'
+            },
+            yAxis: {
+                title: {
+                    text: 'Score'
+                }
+            },
+            series: scoresTimeseries
+        });
+
+        var extractLastScore = function (score) {
+            return score.data[score.data.length - 1][1]
+        }
+
+        var maxScore = extractLastScore(_.max(scoresTimeseries, extractLastScore));
+
+        var _redraw = chart.redraw;
+        chart.redraw = function() { };
+
+        for (var i = 0; i < chart.series.length; i++) {
+            if (chart.series[i].data[chart.series[i].data.length - 1].y < maxScore) {
+                chart.series[i].hide();
+            }
+        }
+
+        chart.redraw = _redraw;
+        chart.redraw();
     }
 </script>
 </html>
