@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-28T10:05:02.000+0100",
+    "time": "2013-01-28T10:10:02.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -449,7 +449,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 300,
+    "perf": 30,
     "maxPerf": 10000
   },
   {
@@ -841,7 +841,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/444d87e9c4ebfd185fc7f36e7df9f56a?s\u003d64",
-    "perf": 6,
+    "perf": 7,
     "maxPerf": 10000
   },
   {
