@@ -144,7 +144,7 @@
                 {
                     type: 'pie',
                     name: 'Part',
-                    data: _(data).countBy("level").pairs().value()
+                    data: _(data).countBy("level").pairs().sortBy(function(p){ return parseFloat(p[0]); }).value()
                 }
             ]
         })
