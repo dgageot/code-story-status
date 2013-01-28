@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-28T11:20:02.000+0100",
+    "time": "2013-01-28T11:25:02.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -491,9 +491,9 @@
   },
   {
     "name": "ybonnel_ceylon",
-    "level": 27,
+    "level": 32,
     "maxLevel": 35,
-    "time": "2013-01-28T11:00:46.000+0100",
+    "time": "2013-01-28T11:25:42.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/acede2545a558df3b183683a0cf9b962?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
