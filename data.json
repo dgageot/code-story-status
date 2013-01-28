@@ -103,7 +103,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:38.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 10,
+    "perf": 8,
     "maxPerf": 10000
   },
   {
@@ -198,7 +198,7 @@
     "name": "guilbill",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-28T02:35:02.000+0100",
+    "time": "2013-01-28T02:40:04.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/f76a2e95460f417a1c1e6a4f7372ae84?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -236,7 +236,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:34.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/a032ce09ea1c0aef1d231fe525a49da6?s\u003d64",
-    "perf": 5,
+    "perf": 200,
     "maxPerf": 10000
   },
   {
@@ -279,7 +279,7 @@
     "maxLevel": 35,
     "time": "2013-01-27T17:59:18.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
-    "perf": 2000,
+    "perf": 400,
     "maxPerf": 10000
   },
   {
@@ -449,7 +449,7 @@
     "maxLevel": 35,
     "time": "2013-01-27T17:59:18.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 2000,
+    "perf": 200,
     "maxPerf": 10000
   },
   {
@@ -503,7 +503,7 @@
     "maxLevel": 35,
     "time": "2013-01-26T19:46:18.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/133b00fcaf11e63476ed9997e56e0a6c?s\u003d64",
-    "perf": 2000,
+    "perf": 1000,
     "maxPerf": 10000
   },
   {
@@ -830,7 +830,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-28T02:35:57.000+0100",
+    "time": "2013-01-28T02:41:14.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -900,7 +900,7 @@
     "name": "benou",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-28T02:36:02.000+0100",
+    "time": "2013-01-28T02:41:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/3e4eeb6684192c7667363e34e888a581?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -947,7 +947,7 @@
     "maxLevel": 35,
     "time": "2013-01-27T17:59:18.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 5,
+    "perf": 4,
     "maxPerf": 10000
   },
   {
