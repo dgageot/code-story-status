@@ -41,7 +41,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/7d1cae5a72c40c302eef563709d034ea?s\u003d64",
-    "perf": 9,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -103,7 +103,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 10,
+    "perf": 8,
     "maxPerf": 10000
   },
   {
@@ -236,7 +236,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/a032ce09ea1c0aef1d231fe525a49da6?s\u003d64",
-    "perf": 300,
+    "perf": 200,
     "maxPerf": 10000
   },
   {
@@ -743,7 +743,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:36.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/abc63a326ea9ba46fbbb2651c710d6ef?s\u003d64",
-    "perf": 12,
+    "perf": 10,
     "maxPerf": 10000
   },
   {
@@ -804,7 +804,7 @@
     "name": "BenoitV",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-28T17:41:09.000+0100",
+    "time": "2013-01-28T17:46:26.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/54c79064a6cb32c62f0f0aed44146fad?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -831,7 +831,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-28T17:41:13.000+0100",
+    "time": "2013-01-28T17:46:29.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -901,7 +901,7 @@
     "name": "benou",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-28T17:36:31.000+0100",
+    "time": "2013-01-28T17:46:45.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/3e4eeb6684192c7667363e34e888a581?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -948,7 +948,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 600,
+    "perf": 400,
     "maxPerf": 10000
   },
   {
