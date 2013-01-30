@@ -19,9 +19,10 @@
   },
   {
     "name": "KerboriouChristophe",
-    "level": 1,
+    "level": 4,
     "maxLevel": 35,
-    "time": "2013-01-30T07:31:17.000+0100",
+    "time": "2013-01-30T07:35:02.000+0100",
+    "gravatar": "http://www.gravatar.com/avatar/098839c950b74cebf5f7769121eb3548?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -63,9 +64,9 @@
   },
   {
     "name": "popofr13",
-    "level": 1,
+    "level": 2,
     "maxLevel": 35,
-    "time": "2013-01-30T07:31:17.000+0100",
+    "time": "2013-01-30T07:35:02.000+0100",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -75,7 +76,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T07:31:17.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/b7524eea51bd3a372af9f6e20b6eea8c?s\u003d64",
-    "perf": 13,
+    "perf": 14,
     "maxPerf": 10000
   },
   {
@@ -203,9 +204,10 @@
   },
   {
     "name": "JroAimServices",
-    "level": 1,
+    "level": 3,
     "maxLevel": 35,
-    "time": "2013-01-30T07:31:17.000+0100",
+    "time": "2013-01-30T07:35:03.000+0100",
+    "gravatar": "http://www.gravatar.com/avatar/6dc11d7fd372413731cfe2b326f9c905?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -242,14 +244,6 @@
     "maxLevel": 35,
     "time": "2013-01-23T19:44:02.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/acc0f24c4041e2290e380332d070e36d?s\u003d64",
-    "perf": 0,
-    "maxPerf": 10000
-  },
-  {
-    "name": "christopheKerboriou",
-    "level": 1,
-    "maxLevel": 35,
-    "time": "2013-01-30T07:31:17.000+0100",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -311,7 +305,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
-    "perf": 2000,
+    "perf": 5,
     "maxPerf": 10000
   },
   {
@@ -356,7 +350,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T02:11:16.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/df1516910ff74da1a423e6732f13c926?s\u003d64",
-    "perf": 12,
+    "perf": 13,
     "maxPerf": 10000
   },
   {
@@ -482,7 +476,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T07:31:17.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 2000,
+    "perf": 400,
     "maxPerf": 10000
   },
   {
@@ -594,9 +588,9 @@
   },
   {
     "name": "trobert",
-    "level": 1,
+    "level": 2,
     "maxLevel": 35,
-    "time": "2013-01-30T07:31:17.000+0100",
+    "time": "2013-01-30T07:36:39.000+0100",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -716,9 +710,9 @@
   },
   {
     "name": "fsznajderman",
-    "level": 1,
+    "level": 2,
     "maxLevel": 35,
-    "time": "2013-01-30T07:31:17.000+0100",
+    "time": "2013-01-30T07:36:45.000+0100",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -787,9 +781,10 @@
   },
   {
     "name": "ybonnel_scala",
-    "level": 1,
+    "level": 24,
     "maxLevel": 35,
-    "time": "2013-01-30T07:31:17.000+0100",
+    "time": "2013-01-30T07:37:27.000+0100",
+    "gravatar": "http://www.gravatar.com/avatar/acede2545a558df3b183683a0cf9b962?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
   },
@@ -862,7 +857,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T07:31:17.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/54c79064a6cb32c62f0f0aed44146fad?s\u003d64",
-    "perf": 14,
+    "perf": 15,
     "maxPerf": 10000
   },
   {
@@ -887,7 +882,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-30T07:31:57.000+0100",
+    "time": "2013-01-30T07:36:58.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -957,7 +952,7 @@
     "name": "benou",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-30T07:32:03.000+0100",
+    "time": "2013-01-30T07:37:25.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/3e4eeb6684192c7667363e34e888a581?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
