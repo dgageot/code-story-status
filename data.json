@@ -729,9 +729,9 @@
   },
   {
     "name": "fsznajderman",
-    "level": 4,
+    "level": 5,
     "maxLevel": 35,
-    "time": "2013-01-30T22:56:35.000+0100",
+    "time": "2013-01-30T23:11:44.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/efa687ad8e28474372463d31cbe80c2f?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -1037,7 +1037,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:34.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/0973036c24ea715fe206af1567b4ec54?s\u003d64",
-    "perf": 14,
+    "perf": 13,
     "maxPerf": 10000
   },
   {
