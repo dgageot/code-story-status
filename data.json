@@ -494,7 +494,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T07:31:17.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 300,
+    "perf": 2000,
     "maxPerf": 10000
   },
   {
@@ -937,7 +937,7 @@
     "maxLevel": 35,
     "time": "2013-01-29T18:48:15.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/3e8ba8f4ad56ca5650b63459a47b4406?s\u003d64",
-    "perf": 10,
+    "perf": 11,
     "maxPerf": 10000
   },
   {
