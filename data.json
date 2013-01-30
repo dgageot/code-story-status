@@ -209,7 +209,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T09:06:40.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/6dc11d7fd372413731cfe2b326f9c905?s\u003d64",
-    "perf": 400,
+    "perf": 300,
     "maxPerf": 10000
   },
   {
@@ -315,7 +315,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/b564ebca8f8f126b1d2eaf7496ef97e5?s\u003d64",
-    "perf": 700,
+    "perf": 600,
     "maxPerf": 10000
   },
   {
@@ -495,7 +495,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T07:31:17.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 50,
+    "perf": 2000,
     "maxPerf": 10000
   },
   {
@@ -729,9 +729,9 @@
   },
   {
     "name": "fsznajderman",
-    "level": 3,
+    "level": 4,
     "maxLevel": 35,
-    "time": "2013-01-30T22:41:43.000+0100",
+    "time": "2013-01-30T22:56:35.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/efa687ad8e28474372463d31cbe80c2f?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -902,7 +902,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-30T22:52:01.000+0100",
+    "time": "2013-01-30T22:56:48.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -939,7 +939,7 @@
     "maxLevel": 35,
     "time": "2013-01-29T18:48:15.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/3e8ba8f4ad56ca5650b63459a47b4406?s\u003d64",
-    "perf": 10,
+    "perf": 11,
     "maxPerf": 10000
   },
   {
@@ -972,7 +972,7 @@
     "name": "benou",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-30T22:47:05.000+0100",
+    "time": "2013-01-30T22:56:56.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/3e4eeb6684192c7667363e34e888a581?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -1037,7 +1037,7 @@
     "maxLevel": 35,
     "time": "2013-01-25T11:05:34.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/0973036c24ea715fe206af1567b4ec54?s\u003d64",
-    "perf": 15,
+    "perf": 14,
     "maxPerf": 10000
   },
   {
