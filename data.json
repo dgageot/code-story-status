@@ -558,7 +558,7 @@
     "maxLevel": 35,
     "time": "2013-01-31T03:01:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/8c92fcdb7c7abc1a50732a93bc361b5e?s\u003d64",
-    "perf": 2000,
+    "perf": 1000,
     "maxPerf": 10000
   },
   {
@@ -902,7 +902,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-31T16:06:22.000+0100",
+    "time": "2013-01-31T16:11:36.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
