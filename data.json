@@ -121,7 +121,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 10,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
@@ -873,11 +873,11 @@
   },
   {
     "name": "BenoitV",
-    "level": 33,
+    "level": 34,
     "maxLevel": 35,
-    "time": "2013-01-30T07:31:17.000+0100",
+    "time": "2013-01-31T16:17:24.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/54c79064a6cb32c62f0f0aed44146fad?s\u003d64",
-    "perf": 2000,
+    "perf": 10000,
     "maxPerf": 10000
   },
   {
@@ -902,7 +902,7 @@
     "name": "Youri",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-31T16:16:37.000+0100",
+    "time": "2013-01-31T16:21:27.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -972,7 +972,7 @@
     "name": "benou",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-01-31T16:16:57.000+0100",
+    "time": "2013-01-31T16:21:30.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/3e4eeb6684192c7667363e34e888a581?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -1028,7 +1028,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T07:31:17.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 4,
+    "perf": 5,
     "maxPerf": 10000
   },
   {
