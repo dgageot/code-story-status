@@ -121,7 +121,7 @@
     "maxLevel": 35,
     "time": "2013-01-28T08:55:20.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/2983ff4b1cfdd190e9a42e1e6c6e7327?s\u003d64",
-    "perf": 8,
+    "perf": 9,
     "maxPerf": 10000
   },
   {
@@ -495,7 +495,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T07:31:17.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/12c3000b827e951d9fd6b634669294cc?s\u003d64",
-    "perf": 50,
+    "perf": 1,
     "maxPerf": 10000
   },
   {
@@ -930,7 +930,7 @@
     "maxLevel": 35,
     "time": "2013-01-31T23:58:09.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/0f243c44c7d921cb41ebdfcf8202b0c3?s\u003d64",
-    "perf": 12,
+    "perf": 11,
     "maxPerf": 10000
   },
   {
@@ -972,7 +972,7 @@
     "name": "benou",
     "level": 7,
     "maxLevel": 35,
-    "time": "2013-02-01T02:36:40.000+0100",
+    "time": "2013-02-01T02:41:25.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/3e4eeb6684192c7667363e34e888a581?s\u003d64",
     "perf": 0,
     "maxPerf": 10000
@@ -1028,7 +1028,7 @@
     "maxLevel": 35,
     "time": "2013-01-30T07:31:17.000+0100",
     "gravatar": "http://www.gravatar.com/avatar/047b5f280cfa36d265fbf225318ccdb1?s\u003d64",
-    "perf": 5,
+    "perf": 4,
     "maxPerf": 10000
   },
   {
